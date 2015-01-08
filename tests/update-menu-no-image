@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://localhost/" />
+<title>update-menu-no-image</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">update-menu-no-image</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>admin/menu/edit/1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=Menu_title</td>
+	<td>[UPDATE] Teste de Título</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=Menu_special</td>
+	<td>1</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=Menu_exibition</td>
+	<td>1</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=Menu_description</td>
+	<td>[UPDATE] Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas at justo non urna egestas sagittis nec in elit. Ut enim neque, molestie euismod consequat vitae, facilisis sed diam. Sed eu maximus est. Proin pellentesque, tortor eget condimentum tincidunt, nisl libero rutrum mi, et rutrum tellus risus a ligula. Mauris congue aliquam lacinia. Sed non sodales nunc. Vestibulum et eros suscipit, scelerisque massa a, vulputate augue. Curabitur ac dui aliquet, vulputate sem non, scelerisque urna. In sed cursus felis. Mauris eu fermentum elit, nec convallis justo. </td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=yt0</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+</body>
+</html>

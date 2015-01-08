@@ -1,0 +1,27 @@
+PENDÊNCIAS
+
+Login
+
+-----------------------------------------------------
+
+MELHORIAS
+
+Paginação
+
+Excluir
+ Imagem
+ Item
+ Por Lote
+
+Migrations
+ tables
+ content
+ 
+Modules
+ Group Rights
+
+Foto User
+
+Procurar
+
+Confirmar Exclusão

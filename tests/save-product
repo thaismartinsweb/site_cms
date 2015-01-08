@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://localhost/" />
+<title>save-product</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">save-product</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/admin/product/new</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=Product_title</td>
+	<td>Título do Produto</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=Product_product_category_id</td>
+	<td>label=Teste de Título de Categoria</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=Product_image</td>
+	<td>/home/thais/image.jpg</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=Product_description</td>
+	<td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur luctus mi vel tempor pretium. Ut varius nibh augue, vitae scelerisque nulla cursus euismod. Morbi convallis eros ut neque rutrum, sed elementum dolor gravida. Integer nec nisl mattis, cursus dui pretium, fringilla felis. Suspendisse viverra metus ac urna imperdiet sodales. Suspendisse ut sapien non lectus efficitur auctor. Pellentesque sit amet aliquam diam, ut viverra lectus. Ut feugiat tempus erat, ut accumsan magna sodales vitae. Quisque semper sapien molestie mi interdum, vel malesuada magna dignissim. Sed varius nisl ut diam mattis scelerisque. Nam augue sem, posuere sed lacinia eget, placerat accumsan felis. </td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=yt0</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+</body>
+</html>
