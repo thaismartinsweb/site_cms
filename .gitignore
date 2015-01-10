@@ -1,2 +1,9 @@
 assets/*
-assets/runtime/*
+protected/runtime/application.log*
+public/config/*
+public/content/*
+public/editor/*
+public/menu/*
+public/photogallery/*
+public/product/*
+public/productgallery/*
