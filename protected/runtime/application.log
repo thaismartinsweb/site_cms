@@ -4471,3 +4471,1880 @@ Stack trace:
 REQUEST_URI=/js/css/blank.gif
 HTTP_REFERER=http://thaismartins.rocks/
 ---
+2015/01/10 09:01:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 09:03:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 09:03:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 09:04:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 09:05:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 09:07:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 09:07:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 09:09:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 09:15:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 10:16:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 10:16:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "favicon.ico".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2015/01/10 10:16:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "favicon.ico".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2015/01/10 10:17:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 10:18:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 10:21:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 10:22:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 10:24:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 10:24:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 10:26:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 10:26:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 10:26:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 10:27:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 10:29:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 10:39:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 10:39:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "favicon.ico".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2015/01/10 10:39:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "favicon.ico".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2015/01/10 10:42:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 10:42:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 10:42:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 10:42:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 10:42:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 10:43:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 10:44:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 10:46:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 10:46:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 10:46:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 10:46:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 10:47:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 10:47:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 10:47:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 10:47:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 10:48:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 10:48:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 10:49:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 10:49:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 10:49:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 10:49:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 10:49:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 10:50:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 10:51:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 10:51:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 10:51:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 10:52:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 10:52:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 10:52:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 10:52:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 10:53:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 10:54:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 10:54:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 10:54:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 10:56:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 10:56:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 10:57:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 10:57:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 10:57:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 10:57:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 10:58:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 10:58:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 10:58:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 10:58:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 10:59:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 10:59:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 10:59:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 10:59:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 11:00:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 11:00:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 11:00:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 11:01:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 11:01:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 11:01:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 11:01:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 11:02:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 11:02:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 11:02:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 11:02:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 11:03:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 11:03:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 11:04:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 11:04:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 11:04:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 11:05:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 11:05:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 11:06:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 11:06:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 11:07:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 11:07:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 11:08:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 11:08:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 11:08:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 11:09:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 11:09:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 11:11:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 11:11:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 11:13:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 11:13:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 11:15:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 11:15:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 11:16:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 11:17:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 11:18:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 11:18:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 11:18:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 11:18:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 11:20:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 11:21:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 11:22:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 11:24:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 11:24:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 11:25:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 11:25:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 11:25:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 11:27:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 11:27:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 11:27:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 11:27:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 11:27:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 11:29:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 11:29:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 11:29:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 11:29:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 11:31:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 11:31:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 11:31:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 11:37:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 11:37:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 11:37:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 11:38:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 11:39:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 11:39:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 11:42:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 11:42:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 11:48:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 11:52:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 11:52:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 11:53:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 11:53:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 11:53:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 11:53:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 11:54:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 11:54:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 11:54:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 11:54:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 11:57:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 11:58:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 12:00:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 12:00:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 12:00:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 12:00:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 12:00:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 12:01:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 12:01:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 12:01:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 12:01:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 12:03:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 12:03:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 12:03:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 12:04:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 12:04:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 12:04:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+---
+2015/01/10 12:04:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+---
+2015/01/10 12:04:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+---
+2015/01/10 12:04:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+---
+2015/01/10 12:04:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+---
+2015/01/10 12:05:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+---
+2015/01/10 12:05:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+---
+2015/01/10 12:05:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+---
+2015/01/10 12:05:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+---
+2015/01/10 12:06:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 12:06:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 12:07:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 12:07:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 12:07:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 12:09:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 12:10:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 12:10:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 12:10:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 12:10:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 12:12:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 12:21:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 12:22:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 12:23:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 12:23:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 12:23:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 12:24:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 12:25:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 12:26:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 12:27:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 12:28:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 12:29:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 12:29:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 12:31:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 12:31:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 12:32:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 12:33:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 12:33:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 12:35:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 12:35:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 12:36:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 12:36:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---
+2015/01/10 12:37:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thais/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thais/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thais/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thais/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://localhost/
+---

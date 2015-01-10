@@ -75,6 +75,7 @@
 		},
 
 		adjustNav: function(self, $parent) {
+			self.$elem.find('.' + self.config.currentClass).find('.nav-hover').hide(100);
 			self.$elem.find('.' + self.config.currentClass).removeClass(self.config.currentClass);
 			$parent.addClass(self.config.currentClass);
 		},
@@ -189,7 +190,7 @@
 				if(!$parent.hasClass(this.config.currentClass)) {
 					//Change the highlighted nav item
 					this.adjustNav(this, $parent);
-
+					$parent.find('.nav-hover').show(200);
 					//If there is a scrollChange callback
 					if(this.config.scrollChange) {
 						this.config.scrollChange($parent);

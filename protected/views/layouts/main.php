@@ -34,7 +34,7 @@
 <body>
 
 	<header class="container-fluid">
-		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<nav class="navbar navbar-orange navbar-fixed-top" role="navigation">
 			<div class="container-fluid">
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu">
@@ -44,19 +44,18 @@
 						<span class="icon-bar"></span>
 					</button>
 					<a class="navbar-brand" href="index.php">
-						<span class="brand-title">Thais Martins</span>
-						<span class="brand-subtitle">Desenvolvedora Web Freelancer</span>
+						<?php echo CHtml::image($this->createUrl('images/logo.png'), 'Thais Martins | Desenvolvimento Web Freelancer')?>
 					</a>
 				</div>
 				
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse navbar-right" id="menu">
-					<ul class="nav navbar-nav" id="onepage">
-						<li class="current"><span class="nav-hover"></span><a href="#slider">Home</a></li>
-						<li><span class="nav-hover"></span><a href="#about">Sobre Mim</a></li>
-						<li><span class="nav-hover"></span><a href="#services">Serviços</a></li>
-						<li><span class="nav-hover"></span><a href="#portfolio">Portfolio</a></li>
-						<li><span class="nav-hover"></span><a href="#contact">Contato</a></li>
+					<ul class="nav-orange" id="onepage">
+						<li class="home current"><span class="nav-hover" style="display:block"></span><a href="#slider">Home</a></li>
+						<li class="about"><span class="nav-hover"></span><a href="#about">Sobre Mim</a></li>
+						<li class="services"><span class="nav-hover"></span><a href="#services">Serviços</a></li>
+						<li class="portfolio"><span class="nav-hover"></span><a href="#portfolio">Portfolio</a></li>
+						<li class="contact"><span class="nav-hover"></span><a href="#contact">Contato</a></li>
 					</ul>
 				</div>
 			</div>
@@ -119,7 +118,9 @@
 	
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/jquery.onepage.js"></script>
+	<script src="js/jquery.isMobile.js"></script>
 	<script src="js/jquery.site.js"></script>
+	<script src="js/jquery.menu.js"></script>
 	
 </body>
 </html>

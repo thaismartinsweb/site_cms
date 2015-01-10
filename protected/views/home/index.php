@@ -1,7 +1,7 @@
-<section id="slider" class="gradient">
+<section id="slider" class="gradient general-content">
 	<div class="container-fluid">
 		<div id="full-slider-wrapper" class="row">
-			<div id="layerslider" style="width:100%;height:400px;">
+			<div id="layerslider" style="width:100%;">
 			
 				<div class="ls-slide" data-ls="slidedelay:15000;transition2d:1;timeshift:1000;">
 					<div class="ls-slide" data-ls="slidedelay:8000;transition2d:75,79;">
@@ -66,7 +66,7 @@
 	</div>
 </section>
 
-<section id="about">
+<section id="about" class="general-content">
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-sm-6 col-sm-offset-3 col-xs-12 row-comment"><hr /></div>
@@ -149,7 +149,7 @@
 </section>
 
 
-<section id="services">
+<section id="services" class="general-content">
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-md-9 col-md-offset-1 col-xs-12">
@@ -209,7 +209,7 @@
 	</div>
 </section>
 
-<section id="portfolio">
+<section id="portfolio" class="general-content">
 	<div class="container-fluid">
 	
 		<div class="row">
@@ -346,7 +346,7 @@
 </section>
 
 
-<section id="contact">
+<section id="contact" class="general-content">
 	<div class="container-fluid">
 	
 		<div class="row">
