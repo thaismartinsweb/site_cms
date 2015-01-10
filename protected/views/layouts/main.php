@@ -33,7 +33,7 @@
 </head>
 <body>
 
-	<header class="container-fluid">
+	<header id="site" class="container-fluid">
 		<nav class="navbar navbar-orange navbar-fixed-top" role="navigation">
 			<div class="container-fluid">
 				<div class="navbar-header">
@@ -54,7 +54,7 @@
 						<li class="home current"><span class="nav-hover" style="display:block"></span><a href="#slider">Home</a></li>
 						<li class="about"><span class="nav-hover"></span><a href="#about">Sobre Mim</a></li>
 						<li class="services"><span class="nav-hover"></span><a href="#services">Serviços</a></li>
-						<li class="portfolio"><span class="nav-hover"></span><a href="#portfolio">Portfolio</a></li>
+						<li class="portfolio"><span class="nav-hover"></span><a href="#portfolio">Portfólio</a></li>
 						<li class="contact"><span class="nav-hover"></span><a href="#contact">Contato</a></li>
 					</ul>
 				</div>

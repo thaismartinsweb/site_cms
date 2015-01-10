@@ -32,6 +32,7 @@ class Config extends CActiveRecord
 			array('image, contact', 'length', 'max'=>100),
 			array('image', 'file', 'types' => 'jpg, gif, png', 'allowEmpty' => true),
 			array('id, title, email, image, contact, address', 'safe'),
+			array('id, title, email, image, contact, address', 'safe', 'on'=>'search'),
 		);
 	}
 

@@ -44,6 +44,7 @@ $(function(){
 		navPrevNext: true,
 		navStartStop : false,
 		navButtons : true,
+		pauseOnHover : false,
 		showCircleTimer : false,
 		thumbnailNavigation : false,
 		skinsPath: '/js/skins/'

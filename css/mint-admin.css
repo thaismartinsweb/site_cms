@@ -121,6 +121,10 @@ body, html {
 body {
   font-family: 'Open Sans', sans-serif, 'Arial', sans-serif;
   background-color: #272a33; }
+  
+a {
+	text-decoration:none;
+	border: none;}
 
 /* Wrappers */
 /* ------------------------------- */
@@ -229,11 +233,23 @@ body {
       position: absolute; }
 
 a {
-  outline: none; }
+  outline: none;
+  color: #1abc9c;
+  text-decoration: none;}
+ 
+a:hover {
+  outline: none;
+  text-decoration: none;}
 
 /* Navigation */
 /* ------------------------------- */
 /* Top Right Navigation Dropdown Styles */
+.navbar {
+	margin-bottom: 0; }
+
+.nav-brand {
+	padding:20px; }
+	
 @media (min-width: 768px) {
   .navbar-top-links {
     height: 90px; } }
@@ -447,7 +463,7 @@ table.dataTable thead .sorting:after {
 .btn-circle {
   width: 30px;
   height: 30px;
-  padding: 6px 0;
+  padding: 5px 0;
   border-radius: 15px;
   text-align: center;
   font-size: 12px;

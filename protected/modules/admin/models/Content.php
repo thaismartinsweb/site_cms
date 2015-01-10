@@ -63,13 +63,14 @@ class Content extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'id' => 'ID',
-			'menu_id' => 'Menu',
-			'type_page_id' => 'Tipo de Página',
-			'title' => 'Título do Conteúdo',
-			'description' => 'Descrição',
-			'image' => 'Imagem',
-			'date_create' => 'Data de Criação'
+			'id' => Yii::t('admin', 'Id'),
+			'menu_id' => Yii::t('admin', 'Menu'),
+			'type_page_id' => Yii::t('admin', 'Tipo de Página'),
+			'title' => Yii::t('admin', 'Título do Conteúdo'),
+			'description' => Yii::t('admin', 'Descrição'),
+			'image' => Yii::t('admin', 'Imagem'),
+			'date_create' => Yii::t('admin', 'Data de Criação'),
+			'content' => Yii::t('admin', 'Conteúdo')
 		);
 	}
 
@@ -114,5 +115,15 @@ class Content extends CActiveRecord
 	public static function model($className=__CLASS__)
 	{
 		return parent::model($className);
+	}
+	
+	public function accessRules()
+	{
+		return array(
+				array('allow',
+						'actions' => array('remove'),
+						'users' => array('*'),
+				),
+		);
 	}
 }

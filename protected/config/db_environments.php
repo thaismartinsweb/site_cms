@@ -22,7 +22,7 @@ switch($url[0])
 				'connectionString' => 'mysql:host=127.0.0.1;dbname=cms',
 				'emulatePrepare' => true,
 				'username' => 'root',
-				'password' => 'root',
+				'password' => 'teste123',
 				'charset' => 'utf8',
 				'enableParamLogging' => true,
 				'enableProfiling' => true,

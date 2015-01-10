@@ -1,6 +1,6 @@
 <div class="row">
 	<div class="col-lg-12">
-		<h3 class="page-header">Editar Conteúdo</h3>
+		<h3 class="page-header"><?php echo Yii::t('admin', 'Editar Conteudo') ?></h3>
 	</div>
 </div>
 
@@ -16,11 +16,11 @@
 							'htmlOptions' => array('enctype'=>'multipart/form-data')
 					)); ?>
 					
-					<?php echo $form->errorSummary($model);?>
+					<?php echo Messages::show($form->errorSummary($model));?>
 
 					<div class="form-group">
-						<?php echo $form->labelEx($model,'title'); ?>
-						<?php echo $form->textField($model,'title', array('class' => 'form-control field-xxlg', 'placeholder' => 'Título')) ?>
+						<?php echo $form->labelEx($model, 'title'); ?>
+						<?php echo $form->textField($model, 'title', array('class' => 'form-control field-xxlg', 'placeholder' => 'Título')) ?>
 					</div>
 					
 					<div class="form-group">
@@ -30,27 +30,27 @@
 						<?php if(isset($model['image'])){ ?>
 							<?php $image = '/public/' . Yii::app()->controller->id . '/' . $model['image'];?>
 							<a href="<?php echo $image ?>" data-lightbox="<?php echo $model['image']?>">
-								<?php echo CHtml::image($image, 'Imagem', array('style' => 'max-width:100;margin:10px;'));?>
+								<?php echo CHtml::image($image, 'Imagem', array('style' => 'max-width:200px;margin:10px;'));?>
 							</a>
 						<?php }?>
 					</div>
 					
 					<div class="form-group">
-						<?php echo $form->labelEx($model,'email'); ?>
-						<?php echo $form->textField($model,'email', array('class' => 'form-control field-xlg', 'placeholder' => 'email@email.com.br')) ?>
+						<?php echo $form->labelEx($model, 'email'); ?>
+						<?php echo $form->textField($model, 'email', array('class' => 'form-control field-xlg', 'placeholder' => 'email@email.com.br')) ?>
 					</div>
 					
 					<div class="form-group">
-						<?php echo $form->labelEx($model,'contact'); ?>
-						<?php echo $form->textField($model,'contact', array('class' => 'form-control field-lg', 'placeholder' => '(11)2222-2222')) ?>
+						<?php echo $form->labelEx($model, 'contact'); ?>
+						<?php echo $form->textField($model, 'contact', array('class' => 'form-control field-lg', 'placeholder' => '(11)2222-2222')) ?>
 					</div>
 					
 					<div class="form-group">
-						<?php echo $form->labelEx($model,'address'); ?>
-						<?php echo $form->textField($model,'address', array('class' => 'form-control field-xxlg', 'placeholder' => 'Rua Blabla, 123')) ?>
+						<?php echo $form->labelEx($model, 'address'); ?>
+						<?php echo $form->textField($model, 'address', array('class' => 'form-control field-xxlg', 'placeholder' => 'Rua Blabla, 123')) ?>
 					</div>
 					
-					<?php echo CHtml::submitButton($model->id ? Yii::t('app', 'Alterar') :  Yii::t('app', 'Salvar'), array('class' => 'btn btn-primary')); ?>
+					<?php echo CHtml::submitButton($model->isNewRecord ? Yii::t('app', 'Salvar') : Yii::t('app', 'Alterar'), array('class' => 'btn btn-primary')); ?>
 					
 				<?php $this->endWidget(); ?>
 			</div>

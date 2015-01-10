@@ -3,7 +3,7 @@
 		<div id="full-slider-wrapper" class="row">
 			<div id="layerslider" style="width:100%;">
 			
-				<div class="ls-slide" data-ls="slidedelay:15000;transition2d:1;timeshift:1000;">
+				<div class="ls-slide" data-ls="slidedelay:5000;transition2d:1;timeshift:1000;">
 					<div class="ls-slide" data-ls="slidedelay:8000;transition2d:75,79;">
 						
 						<img src="images/mobile.png" class="ls-l" style="top:0;left:-110px;white-space:nowrap;"
@@ -35,7 +35,7 @@
 					</div>
 				</div>
 				
-				<div class="ls-slide" data-ls="slidedelay:4000;transition2d:1;timeshift:-1000;">
+				<div class="ls-slide" data-ls="slidedelay:4000;transition2d:1;timeshift:-1000;" style="background-color:#bad8cd;">
 					<div class="ls-slide" data-ls="slidedelay:8000;transition2d:75,79;">
 						
 						<img src="images/mobile.png" class="ls-l" style="top:0px;right:0;white-space:nowrap;"

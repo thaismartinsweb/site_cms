@@ -2612,49 +2612,4 @@ EOD;
 
 		return $html;
 	}
-	
-	
-	public function showErrorMessage($model){
-		
-		$message = '<button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>';
-		$message .= '<i class="fa fa-exclamation-triangle fa-1x" style="margin-right:10px"></i>';
-		$message .= '<b>ERRO AO SALVAR</b>';
-		
-		if(Yii::app()->user->hasFlash('error'))
-		{
-			$message = '<div class="alert alert-danger alert-dismissable">' . $message . '<ul>';
-			$class = Yii::app()->user->getFlash('error');
-
-			if($class->hasErrors())
-			{
-				foreach($class->getErrors() as $error => $value)
-				{
-					$message .= '<li>' . $value[0] . '</li>';
-				}
-			}
-			
-			$message .= '</ul></div>';
-			return $message;
-			
-		} else if($model)
-		{
-			return CHtml::errorSummary( $model,
-					$message,
-					'',
-					array('class' => 'alert alert-danger alert-dismissable'));
-		}
-		
-		
-	}
-	
-	public function showSuccessMessage(){
-
-		if(Yii::app()->user->hasFlash('save')){
-			$message = '<div class="alert alert-success alert-dismissable">';
-			$message .= '<button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>';
-			$message .= '<i class="fa fa-check fa-1x" style="margin-right:10px"></i>';
-			$message .=  Yii::app()->user->getFlash('save'). '</div>';
-			return $message;
-		}
-	}
 }

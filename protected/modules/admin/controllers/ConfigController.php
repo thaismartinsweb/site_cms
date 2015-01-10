@@ -4,10 +4,8 @@ class ConfigController extends Controller
 {
 	public function actionIndex()
 	{
-// 		if(!Yii::app()->request->isPostRequest) {
-// 			throw new  CHttpException(400, Yii::t('app', 'requisicao_invalida'));
-// 		}
-
+		Yii::log('Editando Dados do Site', 'info');
+		
 		$model = Config::model()->findByPk(1);
 		
 		if(!$model)
@@ -28,12 +26,7 @@ class ConfigController extends Controller
 				$model->image = $image->name;
 			}
 			
-			if($model->save()) {
-				Yii::app()->user->setFlash('save','Conteúdo salvo com sucesso!');
-				$this->refresh();
-			} else {
-				Yii::app()->user->setFlash('error', $model);
-			}
+			$model->save();
 		}
 		
 		$this->render('index', array('model' => $model));

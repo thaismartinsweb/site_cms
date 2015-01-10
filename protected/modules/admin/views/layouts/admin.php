@@ -85,22 +85,20 @@
 		<div id="page-wrapper">
 			<div class="row">
 				<div class="col-lg-12">
-				<h3 class="page-header text-asbestos"><?php echo CHtml::encode(Yii::app()->name); ?></h3>
-				
-					<div style="margin:25px 0 15px 0;">
-						<?php if(isset($this->breadcrumbs)):?>
-							<?php $this->widget('zii.widgets.CBreadcrumbs', array(
-									'links' => $this->breadcrumbs,
-									'homeLink' => CHtml::link('Home', Yii::app()->homeUrl . 'admin'),)); ?>
-						<?php endif?>
-					</div>
+					<h3 class="page-header text-asbestos"><?php echo CHtml::encode(Yii::app()->name); ?></h3>
 				</div>
 			</div>
-	
+			
+			<?php if(isset($this->breadcrumbs)):?>
+				<?php $this->widget('zii.widgets.CBreadcrumbs', array(
+						'links' => $this->breadcrumbs,
+						'homeLink' => CHtml::link('Home', Yii::app()->createURl('admin')) )); ?>
+			<?php endif?>
+			
 			<?php echo $content; ?>
 			
 			<div style="clear:both"></div>
-			<div id="footer" style="text-align:center">2014 - <?php echo date('Y'); ?> | Desenvolvido por <a href="#">tmartins.com.br</a></div>
+			<div id="footer" style="text-align:center">2014 - <?php echo date('Y'); ?> | Desenvolvido por <a href="thaismartins.rocks">thaismartins.rocks</a></div>
 		</div>
 	</div>
 	

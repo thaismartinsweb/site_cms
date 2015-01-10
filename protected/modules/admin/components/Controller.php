@@ -49,88 +49,6 @@ class Controller extends CController
 		return '';
 	}
 	
-// 	public function beforeAction($action)
-// 	{
-// 		$module = Module::model()->findByAttributes(array('controller' => $action->controller->id));
-
-// 		if($module)
-// 		{
-// 			$this->model = ucfirst($module->controller);
-// 			$this->modelName = $module->title;
-// 		}
-		
-// 		$this->resolvePostAction($action);
-// 		$this->breadcrumbs = $this->createBreadcrumbs($action->id);
-		
-// 		return parent::beforeAction($action);
-// 	}
-	
-	public function resolvePostAction($action)
-	{	
-		$this->type = ($this->model == 'Config') ? 'new' : $action->id;
-		
-		if($this->post)
-		{
-			$model = $this->setPost();
-					
-			if($model->save()) {
-				Yii::app()->user->setFlash('save','Conteúdo salvo com sucesso!');
-				if($this->model == 'Config'){
-					$this->refresh();
-				} else {
-					$this->redirect('/admin/'.strtolower($this->model).'/edit/' . $model->id);
-				}
-			} else {
-				Yii::app()->user->setFlash('error', $model);
-			}
-		}
-	}
-	
-	protected function getCurrentModel($id = null)
-	{
-		$class = $this->model;
-
-		if($id)
-		{
-			if($item = $class::model()->findAllByPk($id)) {
-				return $item[0];
-			}
-		}
-
-		if($this->type == 'new' && $this->post)
-		{
-			return new $class;
-		}
-
-		return $class::model();
-	}
-	
-	protected function setPost()
-	{
-
-		if($this->post)
-		{
-			$model = $this->getCurrentModel($this->post['id']);
-			$this->post['date_create'] = date('Y-m-d H:i:s');
-			$model->attributes = $this->post;
-
-			$image = CUploadedFile::getInstance($model, 'image');
-			
-			if($this->model == 'PhotoGallery')
-			{
-				$this->setPostPhotos($model);
-			}
-			
-			if($image)
-			{
-				$model->image = $image;
-				$model->image->saveAs('/var/www/html/public/' . strtolower($this->model) . '/' . $model->image->name);
-			}
-
-			return $model;
-		}
-	}
-	
 	protected function setPostPhotos($model)
 	{
 		if($model)
@@ -160,23 +78,12 @@ class Controller extends CController
 		}
 	}
 	
-	protected function getTypesPage()
-	{
-		$itens = TypePage::model()->findAll();
-	
-		if($itens){
-			return CHtml::listData($itens, 'id', 'title');
-		}
-	
-		return false;
-	}
-	
 	protected function getTypesMenu()
 	{
-		$itens = TypeMenu::model()->findAll();
+		$typeMenus = TypeMenu::model()->findAll();
 	
 		if($itens){
-			return CHtml::listData($itens, 'id', 'title');
+			return CHtml::listData($typeMenus, 'id', 'title');
 		}
 	
 		return false;
@@ -184,10 +91,10 @@ class Controller extends CController
 	
 	protected function getTypesVideo()
 	{
-		$itens = TypeVideo::model()->findAll();
+		$typeVideos = TypeVideo::model()->findAll();
 		
 		if($itens){
-			return CHtml::listData($itens, 'id', 'title');
+			return CHtml::listData($typeVideos, 'id', 'title');
 		}
 		
 		return false;
@@ -195,10 +102,10 @@ class Controller extends CController
 	
 	protected function getVideoGalleries()
 	{
-		$itens = VideoGallery::model()->findAll();
+		$videoGaleries = VideoGallery::model()->findAll();
 	
 		if($itens){
-			return CHtml::listData($itens, 'id', 'title');
+			return CHtml::listData($videoGaleries, 'id', 'title');
 		}
 	
 		return false;
@@ -206,22 +113,10 @@ class Controller extends CController
 	
 	protected function getCategoriesProduct()
 	{
-		$itens = ProductCategory::model()->findAll();
+		$productCategories = ProductCategory::model()->findAll();
 	
 		if($itens){
-			return CHtml::listData($itens, 'id', 'title');
-		}
-	
-		return false;
-	}
-	
-	protected function getMenus()
-	{
-		$itens = Menu::model()->findAll();
-	
-		if($itens){			
-			
-			return CHtml::listData($itens, 'id', 'title');
+			return CHtml::listData($productCategories, 'id', 'title');
 		}
 	
 		return false;
@@ -259,37 +154,6 @@ class Controller extends CController
 			{
 				Yii::app()->user->setFlash('error', $model);
 			}
-		}
-	}
-	
-	protected function createBreadcrumbs($page)
-	{
-		switch($page){
-			
-			case 'view':
-				return array(
-					$this->modelName => array($this->createUrl('index')),
-					'Visualizar Conteúdo'
-				);
-				break;
-			
-			case 'new':
-				return array(
-					$this->modelName => array($this->createUrl('index')),
-					'Adicionar Conteúdo'
-				);
-				break;
-			
-			case 'update':
-				return array(
-					$this->modelName => array($this->createUrl('index')),
-					'Atualizar Conteúdo'
-				);
-				break;
-			
-			case 'index':
-				return array($this->modelName);
-				break;
 		}
 	}
 	

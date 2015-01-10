@@ -8,10 +8,6 @@ switch($url[0])
 	case 'dev':
 		$data = array(
 			'adminEmail'=> 'thaismartinsweb@gmail.com',
-			'pageName' => 'CMS',
-			'adminUrl' 	=> 'http://dev.bcash.com.br/admin/',
-			'logoutUrl' => 'http://dev.bcash.com.br/admin/default/logout',
-			'url' 		=> 'http://dev.bcash.com.br/',
 			'publicPath' => '/var/www/site/public/',
 		);
 	break;
@@ -19,21 +15,13 @@ switch($url[0])
 	case 'localhost':
 		$data =  array(
 			'adminEmail'=> 'thaismartinsweb@gmail.com',
-			'pageName'=> 'CMS',
-			'adminUrl' 	=> 'http://localhost/admin/',
-			'logoutUrl' => 'http://localhost/admin/default/logout',
-			'url' 		=> 'http://localhost/',
-			'publicPath' => '/var/www/site/public/',
+			'publicPath' => '/var/www/html/public/',
 		);
 	break;
 	
 	default:
 		$data =  array(
 			'adminEmail'=> 'thaismartinsweb@gmail.com',
-			'pageName'=> 'CMS',
-			'adminUrl' 	=> 'http://localhost/admin/',
-			'logoutUrl' => 'http://localhost/admin/default/logout',
-			'url' 		=> 'http://localhost/',
 			'publicPath' => '/var/www/site/public/',
 		);
 	break;

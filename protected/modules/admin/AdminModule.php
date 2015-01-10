@@ -13,16 +13,11 @@ class AdminModule extends CWebModule
 			'admin.components.*',
 		));
 		
-		$this->setComponents(array(
-										'errorHandler' => array(
-																'errorAction'=>'admin/default/error'
-																),
-										'user' => array(
-														'class' => 'CWebUser',
-														'loginUrl' => Yii::app()->createUrl('admin/default/login'),
-														'returnUrl' => Yii::app()->createUrl('admin/default/index'),
-														),
-									));
+		$this->setComponents(array(	'errorHandler' => array('errorAction' => Yii::app()->createUrl('admin/default/error')),
+									'user' => array('class' => 'CWebUser',
+													'loginUrl' => Yii::app()->createUrl('admin/default/login'),
+													'returnUrl' => Yii::app()->createUrl('admin/default/index')),
+								));
 		
 		$this->layoutPath = Yii::getPathOfAlias('admin.views.layouts');
 		$this->layout = 'admin';
