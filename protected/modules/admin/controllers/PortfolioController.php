@@ -6,38 +6,31 @@ class PortfolioController extends Controller
 	public function actionIndex()
 	{
 		$portfolios = Portfolio::model()->findAll(array('order' => 'id DESC'));
-	
+
 		$this->render('index', array('itens' => $portfolios));
 	}
 
 	public function actionEdit($id = null)
 	{
+
+		$model = Portfolio::model()->findByPk($id);
 		
-		$model = null;
-		
-		if($id){
-			$model = Portfolio::model()->findByPk($id);
-		}
-		
-		if(!$model)
-		{
+		if(!$model) {
 			$model = new Portfolio();
 		}
 		
-		if(isset($_POST['Portfolio']))
-		{
+		if(isset($_POST['Portfolio'])) {
 			$model->attributes = $_POST['Portfolio'];
 				
 			$image = CUploadedFile::getInstance($model, 'image');
 				
-			if($image)
-			{
+			if($image) {
 				$file = Yii::app()->params['publicPath'].Yii::app()->controller->id.'/'.$image->name;
 				$image->saveAs($file);
 				$model->image = $image->name;
 			}
 			
-			if($model->save() && isset($_POST["type_portfolio"])){
+			if($model->save() && isset($_POST["type_portfolio"])) {
 				$this->saveTypes($model->id, $_POST["type_portfolio"]);
 				$id = $model->id;
 			}
@@ -68,7 +61,7 @@ class PortfolioController extends Controller
 		if($id){
 			$types = TypeXPortfolio::model()->findAllByAttributes(array('id_portfolio' => $id));
 			
-			foreach($types as $type){
+			foreach($types as $type) {
 				$selecteds[] = $type->id_type;
 			}
 			
@@ -82,7 +75,7 @@ class PortfolioController extends Controller
 	{
 		TypeXPortfolio::model()->deleteAllByPortfolio($idPortfolio);
 		
-		foreach($types as $type){
+		foreach($types as $type) {
 			$model = new TypeXPortfolio();
 			$model->id_portfolio = $idPortfolio;
 			$model->id_type = $type;

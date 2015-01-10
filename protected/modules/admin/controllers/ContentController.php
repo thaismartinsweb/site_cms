@@ -12,27 +12,20 @@ class ContentController extends Controller
 
 	public function actionEdit($id = null)
 	{
+
+		$model = Content::model()->findByPk($id);
 		
-		$model = null;
-		
-		if($id){
-			$model = Content::model()->findByPk($id);
-		}
-		
-		if(!$model)
-		{
+		if(!$model) {
 			$model = new Content();
 		}
 		
-		if(isset($_POST['Content']))
-		{
+		if(isset($_POST['Content'])) {
 			$model->attributes = $_POST['Content'];
 			$model->date_create = date('Y-m-d H:i:s');
 				
 			$image = CUploadedFile::getInstance($model, 'image');
 				
-			if($image)
-			{
+			if($image) {
 				$file = Yii::app()->params['publicPath'].Yii::app()->controller->id.'/'.$image->name;
 				$image->saveAs($file);
 				$model->image = $image->name;

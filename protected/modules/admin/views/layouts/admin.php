@@ -98,7 +98,7 @@
 			<?php echo $content; ?>
 			
 			<div style="clear:both"></div>
-			<div id="footer" style="text-align:center">2014 - <?php echo date('Y'); ?> | Desenvolvido por <a href="thaismartins.rocks">thaismartins.rocks</a></div>
+			<div id="footer" style="text-align:center">2014 - <?php echo date('Y'); ?> | Desenvolvido por <a href="http://thaismartins.rocks" target="_blank">thaismartins.rocks</a></div>
 		</div>
 	</div>
 	

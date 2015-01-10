@@ -1,23 +1,23 @@
 <?php
 
 /**
- * This is the model class for table "portfolio".
+ * This is the model class for table "service".
  *
- * The followings are the available columns in table 'portfolio':
+ * The followings are the available columns in table 'service':
  * @property integer $id
  * @property string $title
  * @property string $description
  * @property string $content
- * @property string $image
+ * @property string $icon
  */
-class Portfolio extends CActiveRecord
+class Service extends CActiveRecord
 {
 	/**
 	 * @return string the associated database table name
 	 */
 	public function tableName()
 	{
-		return 'portfolio';
+		return 'service';
 	}
 
 	/**
@@ -29,12 +29,12 @@ class Portfolio extends CActiveRecord
 		// will receive user inputs.
 		return array(
 			array('title', 'required'),
-			array('id', 'numerical', 'integerOnly'=>true),
-			array('title, image', 'length', 'max'=>100),
-			array('description, content, site', 'safe'),
+			array('title', 'length', 'max'=>100),
+			array('icon', 'length', 'max'=>45),
+			array('description, content', 'safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, title, description, content, image, site', 'safe', 'on'=>'search'),
+			array('id, title, description, content, icon', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -59,8 +59,7 @@ class Portfolio extends CActiveRecord
 			'title' => 'Título',
 			'description' => 'Descrição',
 			'content' => 'Conteúdo',
-			'image' => 'Image',
-			'site' => 'Site',
+			'icon' => 'Icone',
 		);
 	}
 
@@ -86,8 +85,7 @@ class Portfolio extends CActiveRecord
 		$criteria->compare('title',$this->title,true);
 		$criteria->compare('description',$this->description,true);
 		$criteria->compare('content',$this->content,true);
-		$criteria->compare('image',$this->image,true);
-		$criteria->compare('site',$this->image,true);
+		$criteria->compare('icon',$this->icon,true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
@@ -98,11 +96,10 @@ class Portfolio extends CActiveRecord
 	 * Returns the static model of the specified AR class.
 	 * Please note that you should have this exact method in all your CActiveRecord descendants!
 	 * @param string $className active record class name.
-	 * @return Portfolio the static model class
+	 * @return Service the static model class
 	 */
 	public static function model($className=__CLASS__)
 	{
 		return parent::model($className);
 	}
-	
 }

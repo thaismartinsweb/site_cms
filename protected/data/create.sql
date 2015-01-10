@@ -1,6 +1,7 @@
 CREATE SCHEMA `cms` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci ;
 USE cms;
 
+
 CREATE TABLE `cms`.`module` (
   `id` INT NOT NULL AUTO_INCREMENT,
   `title` VARCHAR(100) NOT NULL,
@@ -10,6 +11,7 @@ CREATE TABLE `cms`.`module` (
 ENGINE = InnoDB
 DEFAULT CHARACTER SET = utf8
 COLLATE = utf8_general_ci;
+
 
 insert into module values
 (null, 'Home', '', 'home'),
@@ -121,7 +123,8 @@ INSERT INTO `cms`.`type_portfolio` VALUES
 (null, 'CSS'),
 (null, 'PHP'),
 (null, 'JAVA'),
-(null, 'CMS');
+(null, 'CMS'),
+(null, 'ECOMMERCE');
 
 
 
@@ -247,6 +250,7 @@ COLLATE = utf8_general_ci;
 CREATE TABLE `cms`.`portfolio` (
   `id` INT(11) NOT NULL AUTO_INCREMENT,
   `title` VARCHAR(100) NULL,
+  `site` VARCHAR(100) NULL,
   `description` TEXT NULL,
   `content` TEXT NULL,
   `image` VARCHAR(100) NULL,
@@ -271,6 +275,18 @@ CREATE TABLE `cms`.`type_x_portfolio` (
     REFERENCES `cms`.`portfolio` (`id`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
+DEFAULT CHARACTER SET = utf8
+COLLATE = utf8_general_ci;
+
+
+
+CREATE TABLE `cms`.`service` (
+  `id` INT(11) NOT NULL AUTO_INCREMENT,
+  `title` VARCHAR(100) NULL,
+  `description` TEXT NULL,
+  `content` TEXT NULL,
+  `icon` VARCHAR(45) NULL,
+  PRIMARY KEY (`id`))
 DEFAULT CHARACTER SET = utf8
 COLLATE = utf8_general_ci;
 
