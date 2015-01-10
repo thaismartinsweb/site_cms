@@ -352,6 +352,18 @@ a:hover {
 .nav-third-level li a {
   padding-left: 52px; }
 
+.navbar-green {
+	background-color:#1abc9c;
+}
+
+.navbar-green a.navbar-brand {
+	background-color:#169f84;
+	padding:0 60px;
+	font-size: 38px;
+	font-weight:900;
+	color: #fff;
+}
+
 @media (min-width: 768px) {
   .navbar-static-side {
     z-index: 1;

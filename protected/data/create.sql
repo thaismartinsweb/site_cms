@@ -226,6 +226,18 @@ DEFAULT CHARACTER SET = utf8
 COLLATE = utf8_general_ci;
 
 
+CREATE TABLE `cms`.`portfolio` (
+  `id` INT(11) NOT NULL,
+  `title` VARCHAR(100) NULL,
+  `description` TEXT NULL,
+  `content` TEXT NULL,
+  `image` VARCHAR(100) NULL,
+  PRIMARY KEY (`id`))
+DEFAULT CHARACTER SET = utf8
+COLLATE = utf8_general_ci;
+
+
+
 CREATE TABLE `cms`.`contact` (
   `id` INT NOT NULL AUTO_INCREMENT,
   `name` VARCHAR(100) NOT NULL,

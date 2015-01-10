@@ -24,12 +24,12 @@
 
 <body>
 	<div id="wrapper">
-		<nav class="navbar navbar-default navbar-static-top" role="navigation">		
+		<nav class="navbar navbar-green navbar-static-top" role="navigation">		
 			<!-- LOGO -->
 			<div class="navbar-header">
 				<a class="navbar-brand" href="index.html">
 					<i class="fa fa-pencil-square-o"></i>
-					<?php echo CHtml::encode(Yii::app()->params['pageName']); ?>
+					CMS
 				</a>
 			</div>
 			<!-- / LOGO -->
