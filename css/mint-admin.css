@@ -510,10 +510,11 @@ table.dataTable thead .sorting:after {
   background: #272a33;
   color: #fff;
   border-color: #535a6d;
-  font-size: 12px; }
+  font-size: 12px;}
 .custom-search-form button {
   background: #5e657b;
   border: #5e657b 2px solid;
+  margin-top:-1px;
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
   -webkit-transition: all 0.5s ease;

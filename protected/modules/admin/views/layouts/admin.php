@@ -37,7 +37,7 @@
 			<!-- / LOGOUT -->
 			<ul class="nav navbar-top-links navbar-right">
 				<li class="dropdown">
-					<a target="_blank" href="<?php echo Yii::app()->params['url']?>" title="Visualizar Site">
+					<a target="_blank" href="<?php echo Yii::app()->createUrl('index')?>" title="Visualizar Site">
 						<i class="fa fa-search-plus fa-2x fa-fw"></i>
 					</a>
 				</li>
