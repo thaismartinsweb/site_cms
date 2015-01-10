@@ -1,23 +1,23 @@
 <?php
 
 /**
- * This is the model class for table "portfolio".
+ * This is the model class for table "type_portfolio".
  *
- * The followings are the available columns in table 'portfolio':
+ * The followings are the available columns in table 'type_portfolio':
  * @property integer $id
  * @property string $title
- * @property string $description
- * @property string $content
- * @property string $image
+ *
+ * The followings are the available model relations:
+ * @property Portfolio[] $portfolios
  */
-class Portfolio extends CActiveRecord
+class TypePortfolio extends CActiveRecord
 {
 	/**
 	 * @return string the associated database table name
 	 */
 	public function tableName()
 	{
-		return 'portfolio';
+		return 'type_portfolio';
 	}
 
 	/**
@@ -28,13 +28,12 @@ class Portfolio extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('title', 'required'),
+			array('id', 'required'),
 			array('id', 'numerical', 'integerOnly'=>true),
-			array('title, image', 'length', 'max'=>100),
-			array('description, content', 'safe'),
+			array('title', 'length', 'max'=>45),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, title, description, content, image', 'safe', 'on'=>'search'),
+			array('id, title', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -46,6 +45,7 @@ class Portfolio extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
+			'portfolios' => array(self::MANY_MANY, 'Portfolio', 'type_x_portfolio(id_type, id_portfolio)'),
 		);
 	}
 
@@ -55,11 +55,8 @@ class Portfolio extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'id' => 'Id',
-			'title' => 'Título',
-			'description' => 'Descrição',
-			'content' => 'Conteúdo',
-			'image' => 'Image',
+			'id' => 'ID',
+			'title' => 'Title',
 		);
 	}
 
@@ -83,9 +80,6 @@ class Portfolio extends CActiveRecord
 
 		$criteria->compare('id',$this->id);
 		$criteria->compare('title',$this->title,true);
-		$criteria->compare('description',$this->description,true);
-		$criteria->compare('content',$this->content,true);
-		$criteria->compare('image',$this->image,true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
@@ -96,11 +90,10 @@ class Portfolio extends CActiveRecord
 	 * Returns the static model of the specified AR class.
 	 * Please note that you should have this exact method in all your CActiveRecord descendants!
 	 * @param string $className active record class name.
-	 * @return Portfolio the static model class
+	 * @return TypePortfolio the static model class
 	 */
 	public static function model($className=__CLASS__)
 	{
 		return parent::model($className);
 	}
-	
 }

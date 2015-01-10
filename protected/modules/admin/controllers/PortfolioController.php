@@ -5,9 +5,9 @@ class PortfolioController extends Controller
 
 	public function actionIndex()
 	{
-		$contents = Content::model()->findAll(array('order' => 'date_create DESC'));
+		$portfolios = Portfolio::model()->findAll(array('order' => 'id DESC'));
 	
-		$this->render('index', array('itens' => $contents));
+		$this->render('index', array('itens' => $portfolios));
 	}
 
 	public function actionEdit($id = null)
@@ -16,18 +16,17 @@ class PortfolioController extends Controller
 		$model = null;
 		
 		if($id){
-			$model = Content::model()->findByPk($id);
+			$model = Portfolio::model()->findByPk($id);
 		}
 		
 		if(!$model)
 		{
-			$model = new Content();
+			$model = new Portfolio();
 		}
 		
-		if(isset($_POST['Content']))
+		if(isset($_POST['Portfolio']))
 		{
-			$model->attributes = $_POST['Content'];
-			$model->date_create = date('Y-m-d H:i:s');
+			$model->attributes = $_POST['Portfolio'];
 				
 			$image = CUploadedFile::getInstance($model, 'image');
 				
@@ -37,26 +36,58 @@ class PortfolioController extends Controller
 				$image->saveAs($file);
 				$model->image = $image->name;
 			}
-				
-			$model->save();
+			
+			if($model->save() && isset($_POST["type_portfolio"])){
+				$this->saveTypes($model->id, $_POST["type_portfolio"]);
+				$id = $model->id;
+			}
 		}
 		
-		$typePages = TypePage::model()->findAll();
-		$menus = Menu::model()->findAll();
-
+		$typesPortfolio = TypePortfolio::model()->findAll();
+		$typesSelecteds = $this->getTypesSelected($id);
+		
 		$this->render('edit', array('model' => $model,
-									'types' => CHtml::listData($typePages, 'id', 'title'),
-									'menus' => CHtml::listData($menus, 'id', 'title')));
+									'typesSelected' => $typesSelecteds,
+									'types' => CHtml::listData($typesPortfolio, 'id', 'title')));
 	}
 
 	public function actionRemove($id)
 	{
 		Yii::log('Deletando conteúdo do site - id '.$id, 'info');
 
-		$model = Content::model()->findByPk($id);
+		TypeXPortfolio::model()->deleteAllByPortfolio($id);
+		
+		$model = Portfolio::model()->findByPk($id);
 		$model->delete();
 		
 		$this->redirect($this->createUrl('index'));
+	}
+	
+	private function getTypesSelected($id)
+	{
+		if($id){
+			$types = TypeXPortfolio::model()->findAllByAttributes(array('id_portfolio' => $id));
+			
+			foreach($types as $type){
+				$selecteds[] = $type->id_type;
+			}
+			
+			return $selecteds;
+		}
+		
+		return null;
+	}
+	
+	private function saveTypes($idPortfolio, $types)
+	{
+		TypeXPortfolio::model()->deleteAllByPortfolio($idPortfolio);
+		
+		foreach($types as $type){
+			$model = new TypeXPortfolio();
+			$model->id_portfolio = $idPortfolio;
+			$model->id_type = $type;
+			$model->save();
+		}
 	}
 	
 }

@@ -107,6 +107,22 @@ insert into type_page values
 
 
 
+CREATE TABLE `cms`.`type_portfolio` (
+  `id` INT(11) NOT NULL AUTO_INCREMENT,
+  `title` VARCHAR(45) NULL,
+  PRIMARY KEY (`id`))
+DEFAULT CHARACTER SET = utf8
+COLLATE = utf8_general_ci;
+
+
+INSERT INTO `cms`.`type_portfolio` VALUES
+(null, 'DESIGN'),
+(null, 'HTML'),
+(null, 'CSS'),
+(null, 'PHP'),
+(null, 'JAVA'),
+(null, 'CMS');
+
 
 
 CREATE TABLE `cms`.`content` (
@@ -149,9 +165,11 @@ ENGINE = InnoDB
 DEFAULT CHARACTER SET = utf8
 COLLATE = utf8_general_ci;
 
+
 INSERT INTO type_video VALUES
 (null, 'YouTube', 'youtube'),
 (null, 'Vimeo', 'vimeo');
+
 
 
 CREATE TABLE `cms`.`video_gallery` (
@@ -227,7 +245,7 @@ COLLATE = utf8_general_ci;
 
 
 CREATE TABLE `cms`.`portfolio` (
-  `id` INT(11) NOT NULL,
+  `id` INT(11) NOT NULL AUTO_INCREMENT,
   `title` VARCHAR(100) NULL,
   `description` TEXT NULL,
   `content` TEXT NULL,
@@ -235,6 +253,27 @@ CREATE TABLE `cms`.`portfolio` (
   PRIMARY KEY (`id`))
 DEFAULT CHARACTER SET = utf8
 COLLATE = utf8_general_ci;
+
+
+
+CREATE TABLE `cms`.`type_x_portfolio` (
+  `id_type` INT(11) NOT NULL,
+  `id_portfolio` INT(11) NOT NULL,
+  INDEX `fk_type_x_portfolio_2_idx` (`id_portfolio` ASC),
+  PRIMARY KEY (`id_type`, `id_portfolio`),
+  CONSTRAINT `fk_type_x_portfolio_1`
+    FOREIGN KEY (`id_type`)
+    REFERENCES `cms`.`type_portfolio` (`id`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION,
+  CONSTRAINT `fk_type_x_portfolio_2`
+    FOREIGN KEY (`id_portfolio`)
+    REFERENCES `cms`.`portfolio` (`id`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+DEFAULT CHARACTER SET = utf8
+COLLATE = utf8_general_ci;
+
 
 
 

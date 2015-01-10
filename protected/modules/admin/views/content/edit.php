@@ -43,7 +43,7 @@
 						<?php echo $form->labelEx($model, 'image'); ?>
 						<?php echo $form->fileField($model, 'image'); ?>
 						
-						<?php if(isset($model['image'])){ ?>
+						<?php if(isset($model['image']) && $model['image'] != ""){ ?>
 							<?php $image = '/public/' . Yii::app()->controller->id . '/' . $model['image'];?>
 							<a href="<?php echo $image ?>" data-lightbox="<?php echo $model['image']?>">
 								<?php echo CHtml::image($image, 'Imagem', array('style' => 'max-width:200px;margin:10px;'));?>
