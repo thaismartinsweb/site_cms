@@ -420,31 +420,64 @@ fieldset[disabled] .btn-amethyst.active {
 }
 
 #services .service {
-	padding: 0 30px;
+	padding: 10px 30px;
 	min-height:200px;
+	cursor:pointer;
 }
 
-#services .service a {
+#services .service i {
+	color: #fff;
+}
+
+#services .service span {
 	color: #333;
 }
 
-#services .service a:hover {
+#services .service span:hover {
 	color: #999;
 }
 
-#services .service a .subtitle {
+#services .service .subtitle {
 	display:block;
 	margin-top:5px;
 	font-size:14px;
 }
 
-#services .service a .title {
+#services .service .title {
 	font-size:16px;
 	margin-top:15px;
 	display:block;
 	font-weight:600;
 }
 
+#services .tabSelected {
+	background-color: #ebf7f3;
+}
+
+#services .currentSelected {
+	display:block!important;
+	background-color:#ebf7f3;
+}
+
+#services .contentSelect {
+	display:none;
+	padding:30px;
+	min-height:300px;
+}
+
+#services .contentSelect h1{
+	font-size:22px;
+	font-weight:600;
+	border-bottom:1px solid #d5e8e1;
+	padding:15px 0;
+	margin-bottom:20px;
+}
+
+#services .contentSelect p{
+	font-size:16px;
+	line-height:25px;
+	margin: 20px 0;
+}
 
 
 
@@ -584,7 +617,7 @@ footer address {
 
 footer hr {
 	height:1px;
-	background-color:#F0F0F0;
+	background-color: #d5e8e1;
 	width:100%;
 	margin: 5px 0;
 }

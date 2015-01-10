@@ -1,5 +1,23 @@
 $(function(){
 	
+	$('.tabSelect').click(function(){
+		
+		var targetName = $(this).attr('dataContent');
+		var target = $('[data="' + targetName + '"]');
+		
+		if(!target.hasClass('currentSelected')){
+			
+			$('.tabSelect').removeClass('tabSelected');
+			$(this).addClass('tabSelected')
+			
+			$('.currentSelected').hide();
+			$('.currentSelected').removeClass('currentSelected');
+			
+			target.show(200);
+			target.addClass('currentSelected');
+		}
+	});
+	
 	$('#formContact').submit(function(){
 		
 		$('.telefone').hide();
@@ -60,7 +78,6 @@ $(function(){
 			$('.general-content').css('min-height', alturaColuna);
 			$('#layerslider').css('min-height', alturaColuna);
 		}
-
 	}
 
 });
