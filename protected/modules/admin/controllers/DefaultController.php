@@ -3,21 +3,28 @@
 class DefaultController extends Controller
 { 	
  	public function actionLogin(){
+ 		
  		$this->layout = 'main';
+ 		
  		$model = new User();
  		$data['model'] = $model;
- 		
+ 		var_dump($_POST);
  		if(isset($_POST['User'])){
  			
  			$model->attributes = $_POST['User'];
- 			
+ 			var_dump($model);
  			if($model->validate() && $model->login())
  			{
- 				$this->redirect(Yii::app()->user->returnUrl);
+ 				$this->redirect($this->createUrl('default/index'));
  			} 
  		}
  		
  		$this->render('login', $data);
+ 	}
+ 	
+ 	public function actionDoLogin(){
+ 		var_dump($_POST);
+ 		die('TAQUEOPA..');
  	}
 	
 	public function actionIndex()

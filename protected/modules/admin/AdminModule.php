@@ -41,7 +41,7 @@ class AdminModule extends CWebModule
 			
 			if(Yii::app()->getModule('admin')->user->isGuest && !in_array($route, $publicPages))
 			{
-				Yii::app()->request->redirect(Yii::app()->getModule('admin')->user->loginUrl);
+// 				Yii::app()->request->redirect(Yii::app()->getModule('admin')->user->loginUrl);
 			}
 			return true;
 		}

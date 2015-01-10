@@ -8,31 +8,37 @@
 				</div>
 				
 				<div class="panel-body">
-
-					<?php echo CHtml::beginForm('', 'post', array('role' => 'form')); ?>
 					
-					<?php if(CHtml::errorSummary($model)) { ?>
+					<?php $form = $this->beginWidget('CActiveForm', array(
+						    'id' => 'user-form',
+							'action' => $this->createUrl('default/doLogin'),
+						    'enableAjaxValidation' => false,
+						    'enableClientValidation' => false,
+							'htmlOptions' => array('enctype'=>'multipart/form-data', 'role' => 'form')
+					)); ?>
+					
+					<?php if($form->errorSummary($model)) { ?>
 						<div class="alert alert-danger alert-dismissable">
 							<button aria-hidden="true" data-dismiss="alert" class="close" type="button">×</button>
-							<?php echo CHtml::errorSummary($model); ?>
+							<?php echo $form->errorSummary($model); ?>
 						</div>
 					<?php } ?>
 
 					<div class="form-group">
-					    <?php echo CHtml::activeLabel($model, Yii::t('admin', 'Usuario')); ?>
-					    <?php echo CHtml::activeTextField($model,'username', array('class' => 'form-control input-lg', 'placeholder' => 'usuario')) ?>
+					    <?php echo $form->labelEx($model, 'username'); ?>
+					    <?php echo $form->textField($model,'username', array('class' => 'form-control input-lg', 'placeholder' => 'usuario')) ?>
 					</div>
 					
 					<div class="form-group">
-					    <?php echo CHtml::activeLabel($model, Yii::t('admin', 'Senha')); ?>
-					    <?php echo CHtml::activePasswordField($model,'password', array('class' => 'form-control input-lg', 'placeholder' => 'senha')) ?>
+					    <?php echo $form->labelEx($model, 'password'); ?>
+					    <?php echo $form->passwordField($model,'password', array('class' => 'form-control input-lg', 'placeholder' => 'senha')) ?>
 					</div>
 					
 					<div class="row submit">
 					    <?php echo CHtml::submitButton('Entrar', array('class' => 'btn btn-lg btn-primary btn-block')); ?>
 					</div>
 					
-					<?php echo CHtml::endForm(); ?>
+					<?php $this->endWidget(); ?>
 					
 				</div>
 			</div>

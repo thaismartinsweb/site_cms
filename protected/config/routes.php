@@ -1,6 +1,5 @@
 <?php
 
-// Site
 $data['/'] = 'home/index';
 
 $data['<module:\w+>/'] = '<module>/default/index';

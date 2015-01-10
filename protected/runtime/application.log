@@ -3880,3 +3880,594 @@ in /home/administrador/workspace/site/index.php (13)
 2015/01/07 21:53:04 [warning] [application] Failed to set unsafe attribute "image" of "Config".
 in /home/administrador/workspace/site/protected/modules/admin/controllers/ConfigController.php (20)
 in /home/administrador/workspace/site/index.php (13)
+2015/01/08 19:17:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "home/index".' in /home/administrador/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/administrador/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('home/index')
+#1 /home/administrador/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/administrador/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2015/01/08 19:19:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "home/index".' in /home/administrador/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/administrador/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('home/index')
+#1 /home/administrador/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/administrador/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2015/01/08 19:20:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "home/index".' in /home/administrador/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/administrador/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('home/index')
+#1 /home/administrador/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/administrador/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2015/01/08 19:20:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "home/index".' in /home/administrador/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/administrador/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('home/index')
+#1 /home/administrador/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/administrador/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2015/01/08 19:20:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "home/index".' in /home/administrador/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/administrador/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('home/index')
+#1 /home/administrador/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/administrador/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2015/01/08 19:20:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "home/index".' in /home/administrador/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/administrador/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('home/index')
+#1 /home/administrador/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/administrador/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2015/01/08 19:20:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "home/index".' in /home/administrador/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/administrador/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('home/index')
+#1 /home/administrador/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/administrador/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2015/01/08 19:20:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "home/index".' in /home/administrador/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/administrador/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('home/index')
+#1 /home/administrador/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/administrador/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2015/01/08 19:21:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "home/index".' in /home/administrador/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/administrador/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('home/index')
+#1 /home/administrador/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/administrador/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2015/01/08 19:23:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "home/index".' in /home/administrador/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/administrador/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('home/index')
+#1 /home/administrador/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/administrador/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+HTTP_REFERER=https://dev.bcash.com.br/admin/default/login
+---
+2015/01/08 19:23:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "home/index".' in /home/administrador/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/administrador/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('home/index')
+#1 /home/administrador/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/administrador/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+HTTP_REFERER=https://dev.bcash.com.br/admin/default/login
+---
+2015/01/08 19:24:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "home/index".' in /home/administrador/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/administrador/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('home/index')
+#1 /home/administrador/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/administrador/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+HTTP_REFERER=https://dev.bcash.com.br/admin/default/login
+---
+2015/01/08 19:24:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "home/index".' in /home/administrador/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/administrador/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('home/index')
+#1 /home/administrador/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/administrador/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+HTTP_REFERER=https://dev.bcash.com.br/admin/default/login
+---
+2015/01/08 19:24:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "admin/admin/default/index".' in /home/administrador/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/administrador/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/admin/def...')
+#1 /home/administrador/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/administrador/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/admin/default/index
+HTTP_REFERER=https://dev.bcash.com.br/admin/default/login
+---
+2015/01/08 20:22:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "home/index".' in /home/administrador/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/administrador/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('home/index')
+#1 /home/administrador/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/administrador/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2015/01/08 20:22:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/lightbox.min.map".' in /home/administrador/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/administrador/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/lightbox.min...')
+#1 /home/administrador/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/administrador/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/lightbox.min.map
+HTTP_REFERER=https://dev.bcash.com.br/admin/default/login
+---
+2015/01/08 20:22:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/lightbox.min.map".' in /home/administrador/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/administrador/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/lightbox.min...')
+#1 /home/administrador/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/administrador/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/lightbox.min.map
+HTTP_REFERER=https://dev.bcash.com.br/admin/default/login
+---
+2015/01/08 20:22:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/lightbox.min.map".' in /home/administrador/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/administrador/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/lightbox.min...')
+#1 /home/administrador/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/administrador/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/lightbox.min.map
+HTTP_REFERER=https://dev.bcash.com.br/admin/default/login
+---
+2015/01/08 20:23:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/lightbox.min.map".' in /home/administrador/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/administrador/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/lightbox.min...')
+#1 /home/administrador/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/administrador/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/lightbox.min.map
+HTTP_REFERER=https://dev.bcash.com.br/admin/default/login
+---
+2015/01/08 20:23:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/lightbox.min.map".' in /home/administrador/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/administrador/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/lightbox.min...')
+#1 /home/administrador/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/administrador/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/lightbox.min.map
+HTTP_REFERER=https://dev.bcash.com.br/admin/default/login
+---
+2015/01/08 20:24:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/lightbox.min.map".' in /home/administrador/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/administrador/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/lightbox.min...')
+#1 /home/administrador/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/administrador/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/lightbox.min.map
+HTTP_REFERER=https://dev.bcash.com.br/admin/default/login
+---
+2015/01/08 20:25:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/lightbox.min.map".' in /home/administrador/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/administrador/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/lightbox.min...')
+#1 /home/administrador/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/administrador/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/lightbox.min.map
+HTTP_REFERER=https://dev.bcash.com.br/admin/default/login
+---
+2015/01/08 20:25:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/lightbox.min.map".' in /home/administrador/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/administrador/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/lightbox.min...')
+#1 /home/administrador/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/administrador/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/lightbox.min.map
+HTTP_REFERER=https://dev.bcash.com.br/admin/default/login
+---
+2015/01/08 20:25:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/lightbox.min.map".' in /home/administrador/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/administrador/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/lightbox.min...')
+#1 /home/administrador/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/administrador/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/lightbox.min.map
+HTTP_REFERER=https://dev.bcash.com.br/admin/default/login
+---
+2015/01/08 20:25:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/lightbox.min.map".' in /home/administrador/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/administrador/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/lightbox.min...')
+#1 /home/administrador/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/administrador/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/lightbox.min.map
+HTTP_REFERER=https://dev.bcash.com.br/admin/default/login
+---
+2015/01/08 20:26:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/lightbox.min.map".' in /home/administrador/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/administrador/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/lightbox.min...')
+#1 /home/administrador/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/administrador/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/lightbox.min.map
+HTTP_REFERER=https://dev.bcash.com.br/admin/default/login
+---
+2015/01/08 20:28:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/lightbox.min.map".' in /home/administrador/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/administrador/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/lightbox.min...')
+#1 /home/administrador/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/administrador/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/lightbox.min.map
+HTTP_REFERER=https://dev.bcash.com.br/admin/default/login
+---
+2015/01/08 20:28:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/lightbox.min.map".' in /home/administrador/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/administrador/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/lightbox.min...')
+#1 /home/administrador/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/administrador/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/lightbox.min.map
+HTTP_REFERER=https://dev.bcash.com.br/admin/default/login
+---
+2015/01/08 20:28:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/lightbox.min.map".' in /home/administrador/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/administrador/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/lightbox.min...')
+#1 /home/administrador/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/administrador/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/lightbox.min.map
+HTTP_REFERER=https://dev.bcash.com.br/admin/default/login
+---
+2015/01/08 20:29:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/lightbox.min.map".' in /home/administrador/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/administrador/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/lightbox.min...')
+#1 /home/administrador/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/administrador/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/lightbox.min.map
+HTTP_REFERER=https://dev.bcash.com.br/admin/default/login
+---
+2015/01/08 20:29:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/lightbox.min.map".' in /home/administrador/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/administrador/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/lightbox.min...')
+#1 /home/administrador/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/administrador/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/lightbox.min.map
+HTTP_REFERER=https://dev.bcash.com.br/admin/default/login
+---
+2015/01/08 20:29:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/lightbox.min.map".' in /home/administrador/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/administrador/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/lightbox.min...')
+#1 /home/administrador/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/administrador/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/lightbox.min.map
+HTTP_REFERER=https://dev.bcash.com.br/admin/default/login
+---
+2015/01/08 20:29:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/lightbox.min.map".' in /home/administrador/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/administrador/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/lightbox.min...')
+#1 /home/administrador/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/administrador/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/lightbox.min.map
+HTTP_REFERER=https://dev.bcash.com.br/admin/default/login
+---
+2015/01/08 20:29:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/lightbox.min.map".' in /home/administrador/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/administrador/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/lightbox.min...')
+#1 /home/administrador/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/administrador/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/lightbox.min.map
+HTTP_REFERER=https://dev.bcash.com.br/admin/default/login
+---
+2015/01/08 20:32:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/lightbox.min.map".' in /home/administrador/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/administrador/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/lightbox.min...')
+#1 /home/administrador/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/administrador/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/lightbox.min.map
+HTTP_REFERER=https://dev.bcash.com.br/admin/default/login
+---
+2015/01/08 20:32:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/lightbox.min.map".' in /home/administrador/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/administrador/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/lightbox.min...')
+#1 /home/administrador/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/administrador/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/lightbox.min.map
+HTTP_REFERER=https://dev.bcash.com.br/admin/default/login
+---
+2015/01/08 20:34:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/lightbox.min.map".' in /home/administrador/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/administrador/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/lightbox.min...')
+#1 /home/administrador/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/administrador/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/lightbox.min.map
+HTTP_REFERER=https://dev.bcash.com.br/admin/default/login
+---
+2015/01/08 20:34:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/lightbox.min.map".' in /home/administrador/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/administrador/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/lightbox.min...')
+#1 /home/administrador/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/administrador/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/lightbox.min.map
+HTTP_REFERER=https://dev.bcash.com.br/admin/default/login
+---
+2015/01/08 20:35:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/lightbox.min.map".' in /home/administrador/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/administrador/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/lightbox.min...')
+#1 /home/administrador/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/administrador/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/lightbox.min.map
+HTTP_REFERER=https://dev.bcash.com.br/admin/default/login
+---
+2015/01/08 20:35:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "default/login".' in /home/administrador/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/administrador/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('default/login')
+#1 /home/administrador/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/administrador/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/default/login
+HTTP_REFERER=https://dev.bcash.com.br/admin/default/login
+---
+2015/01/08 20:35:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/lightbox.min.map".' in /home/administrador/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/administrador/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/lightbox.min...')
+#1 /home/administrador/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/administrador/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/lightbox.min.map
+HTTP_REFERER=https://dev.bcash.com.br/admin/default/login
+---
+2015/01/08 20:36:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/lightbox.min.map".' in /home/administrador/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/administrador/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/lightbox.min...')
+#1 /home/administrador/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/administrador/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/lightbox.min.map
+HTTP_REFERER=https://dev.bcash.com.br/admin/default/login
+---
+2015/01/08 20:36:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/lightbox.min.map".' in /home/administrador/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/administrador/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/lightbox.min...')
+#1 /home/administrador/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/administrador/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/lightbox.min.map
+HTTP_REFERER=https://dev.bcash.com.br/admin/default/login
+---
+2015/01/08 20:36:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/lightbox.min.map".' in /home/administrador/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/administrador/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/lightbox.min...')
+#1 /home/administrador/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/administrador/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/lightbox.min.map
+HTTP_REFERER=https://dev.bcash.com.br/admin/default/login
+---
+2015/01/08 20:36:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/lightbox.min.map".' in /home/administrador/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/administrador/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/lightbox.min...')
+#1 /home/administrador/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/administrador/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/lightbox.min.map
+HTTP_REFERER=https://dev.bcash.com.br/admin/default/login
+---
+2015/01/08 20:36:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/lightbox.min.map".' in /home/administrador/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/administrador/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/lightbox.min...')
+#1 /home/administrador/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/administrador/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/lightbox.min.map
+HTTP_REFERER=https://dev.bcash.com.br/admin/default/login
+---
+2015/01/08 20:37:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/lightbox.min.map".' in /home/administrador/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/administrador/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/lightbox.min...')
+#1 /home/administrador/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/administrador/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/lightbox.min.map
+HTTP_REFERER=https://dev.bcash.com.br/admin/default/login
+---
+2015/01/08 20:37:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/lightbox.min.map".' in /home/administrador/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/administrador/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/lightbox.min...')
+#1 /home/administrador/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/administrador/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/lightbox.min.map
+HTTP_REFERER=https://dev.bcash.com.br/admin/default/login
+---
+2015/01/08 20:37:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/lightbox.min.map".' in /home/administrador/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/administrador/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/lightbox.min...')
+#1 /home/administrador/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/administrador/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/lightbox.min.map
+HTTP_REFERER=https://dev.bcash.com.br/admin/default/login
+---
+2015/01/08 20:37:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/lightbox.min.map".' in /home/administrador/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/administrador/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/lightbox.min...')
+#1 /home/administrador/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/administrador/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/lightbox.min.map
+HTTP_REFERER=https://dev.bcash.com.br/admin/default/login
+---
+2015/01/08 20:59:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "images/mobile.png".' in /home/administrador/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/administrador/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('images/mobile.p...')
+#1 /home/administrador/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/administrador/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/mobile.png
+HTTP_REFERER=https://dev.bcash.com.br/
+---
+2015/01/08 20:59:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "images/layout-site.jpg".' in /home/administrador/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/administrador/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('images/layout-s...')
+#1 /home/administrador/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/administrador/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/layout-site.jpg
+HTTP_REFERER=https://dev.bcash.com.br/
+---
+2015/01/08 20:59:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "images/mobile.png".' in /home/administrador/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/administrador/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('images/mobile.p...')
+#1 /home/administrador/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/administrador/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/mobile.png
+HTTP_REFERER=https://dev.bcash.com.br/
+---
+2015/01/08 20:59:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "images/layout-site.jpg".' in /home/administrador/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/administrador/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('images/layout-s...')
+#1 /home/administrador/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/administrador/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/layout-site.jpg
+HTTP_REFERER=https://dev.bcash.com.br/
+---
+2015/01/08 20:59:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "images/mobile.png".' in /home/administrador/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/administrador/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('images/mobile.p...')
+#1 /home/administrador/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/administrador/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/mobile.png
+HTTP_REFERER=https://dev.bcash.com.br/
+---
+2015/01/08 20:59:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "images/layout-site.jpg".' in /home/administrador/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/administrador/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('images/layout-s...')
+#1 /home/administrador/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/administrador/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/layout-site.jpg
+HTTP_REFERER=https://dev.bcash.com.br/
+---
+2015/01/08 21:00:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "images/mobile.png".' in /home/administrador/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/administrador/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('images/mobile.p...')
+#1 /home/administrador/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/administrador/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/mobile.png
+HTTP_REFERER=https://dev.bcash.com.br/
+---
+2015/01/08 21:00:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "images/layout-site.jpg".' in /home/administrador/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/administrador/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('images/layout-s...')
+#1 /home/administrador/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/administrador/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/layout-site.jpg
+HTTP_REFERER=https://dev.bcash.com.br/
+---
+2015/01/08 21:00:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "favicon.ico".' in /home/administrador/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/administrador/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/administrador/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/administrador/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2015/01/08 21:02:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "css/bootstrap.css.map".' in /home/administrador/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/administrador/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bootstrap.c...')
+#1 /home/administrador/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/administrador/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap.css.map
+HTTP_REFERER=https://dev.bcash.com.br/
+---
+2015/01/08 21:02:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/administrador/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/administrador/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/administrador/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/administrador/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=https://dev.bcash.com.br/
+---
+2015/01/08 21:02:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/administrador/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/administrador/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/administrador/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/administrador/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=https://dev.bcash.com.br/
+---
+2015/01/08 21:06:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/administrador/workspace/site_cms/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/administrador/workspace/site_cms/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/administrador/workspace/site_cms/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/administrador/workspace/site_cms/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=https://dev.bcash.com.br/
+---
+2015/01/09 16:07:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thaismar/public_html/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thaismar/public_html/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thaismar/public_html/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thaismar/public_html/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://thaismartins.rocks/
+---
+2015/01/09 16:07:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "favicon.ico".' in /home/thaismar/public_html/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thaismar/public_html/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/thaismar/public_html/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thaismar/public_html/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2015/01/09 16:24:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thaismar/public_html/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thaismar/public_html/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thaismar/public_html/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thaismar/public_html/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://thaismartins.rocks/
+---
+2015/01/09 16:42:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "js/css/blank.gif".' in /home/thaismar/public_html/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/thaismar/public_html/framework/web/CWebApplication.php(141): CWebApplication->runController('js/css/blank.gi...')
+#1 /home/thaismar/public_html/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/thaismar/public_html/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/css/blank.gif
+HTTP_REFERER=http://thaismartins.rocks/
+---

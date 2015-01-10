@@ -30,8 +30,8 @@ class User extends CActiveRecord
 		return array(
 			'id' => 'ID',
 			'name' => 'Nome',
-			'username' => 'Usuário',
-			'password' => 'Senha',
+			'username' => Yii::t('app', 'Usuario'),
+			'password' => Yii::t('app', 'Senha'),
 		);
 	}
 
