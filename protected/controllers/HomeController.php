@@ -6,12 +6,12 @@ class HomeController extends Controller
 	
 	public function actionIndex()
 	{
+		$services = Service::model()->findAll();
 		$this->config = Config::model()->findByPk(1);
 		
-		$contactForm = new ContactForm();
-		
 		$this->layout = "main";
-		$this->render('index', array('contactForm' => $contactForm));
+		$this->render('index', array('contactForm' => new ContactForm(),
+									 'services' => $services));
 	}
 	
 

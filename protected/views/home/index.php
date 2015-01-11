@@ -67,6 +67,6 @@
 </section>
 
 <?php $this->renderPartial('about'); ?>
-<?php $this->renderPartial('services'); ?>
+<?php $this->renderPartial('services', array('services' => $services)); ?>
 <?php $this->renderPartial('portfolio'); ?>
 <?php $this->renderPartial('contact', array('contactForm' => $contactForm)); ?>

@@ -119,9 +119,9 @@
 		    plugins: [
 		         "autolink link image lists charmap hr anchor pagebreak",
 		         "searchreplace wordcount visualblocks visualchars nonbreaking",
-		         "table directionality template paste textcolor fullscreen jbimages"
+		         "table directionality template paste textcolor fullscreen jbimages code"
 		   ],
-		   toolbar: "undo redo | bold italic | fontsizeselect forecolor | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link jbimages",
+		   toolbar: "undo redo | bold italic | fontsizeselect forecolor | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link jbimages code",
 		   font_size_style_values: "10px, 12px, 14px, 16px, 18px, 20px, 24px, 28px, 36px",
 		   setup : function(ed) {
 				     ed.on('init', function() 
@@ -130,7 +130,10 @@
 				         this.getDoc().body.style.fontFamily = 'Arial';
 				         this.getDoc().body.style.color = '#555555';
 				     });
-				   }
+				   },
+			force_br_newlines : false,
+			force_p_newlines : true,
+			forced_root_block : '',
 		 }); 
 	 </script>
 
