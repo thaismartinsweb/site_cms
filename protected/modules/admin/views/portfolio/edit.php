@@ -24,7 +24,12 @@
 						<?php echo $form->labelEx($model, 'title'); ?>
 						<?php echo $form->textField($model, 'title', array('class' => 'form-control field-xxlg', 'placeholder' => 'Título')) ?>
 					</div>
-
+					
+					<div class="form-group">
+						<?php echo $form->labelEx($model, 'site'); ?>
+						<?php echo $form->textField($model, 'site', array('class' => 'form-control field-xxlg', 'placeholder' => 'http://www.teste.com.br')) ?>
+					</div>
+					
 					<?php if($types){ ?>
 						<div class="form-group">
 							<?php echo CHtml::label('Categorias', 'Categorias'); ?>
