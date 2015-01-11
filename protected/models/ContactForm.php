@@ -20,6 +20,7 @@ class ContactForm extends CFormModel
 		return array(
 			array('name, email, content', 'required'),
 			array('email', 'email'),
+			array('name, email, content, phone', 'safe'),
 		);
 	}
 

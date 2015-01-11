@@ -28,7 +28,7 @@ class Contact extends CActiveRecord
 	{
 		return array(
 			array('name, email, content, date_create', 'required'),
-			array('name, email', 'length', 'max' => 100),
+			array('name, email, phone', 'length', 'max' => 100),
 			array('email','email'),
 			array('id, name, email, phone, content, date_create', 'safe', 'on'=>'search'),
 		);

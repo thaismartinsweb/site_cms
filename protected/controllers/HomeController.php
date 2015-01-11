@@ -29,6 +29,7 @@ class HomeController extends Controller
 				$contact->date_create = date('Y-m-d H:i:s');
 				
 				$contact->save();
+				$this->sendMail($contact);
 				
 				$response = array('code' => '200',
 								  'message' => Yii::t('home', 'Email enviado com sucesso!'));
@@ -42,6 +43,20 @@ class HomeController extends Controller
 		}
 		
 		Yii::app()->end();
+	}
+	
+	private function sendMail($contact){
+		$mailParams = array('from' => array($contact->email => $contact->name),
+							'to' => 'contato@thaismartins.rocks',
+							'subject' => 'Contato do Site',
+							'view' => 'contact',
+							'data' => array('obj' => $contact));
+		
+		Mail::send($mailParams);
+	}
+	
+	public function actionInfo(){
+		echo extension_loaded('openssl') ? 'sim' : 'não';
 	}
 	
 	private function handlesErros($errors)

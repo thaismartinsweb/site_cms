@@ -19,6 +19,7 @@ return array(
 		'application.models.*',
 		'application.modules.admin.models.*',
 		'application.components.*',
+		'ext.yii-mail.YiiMailMessage',
 	),
 
 	'modules'=>array(
@@ -65,6 +66,18 @@ return array(
 					'class'=>'CWebLogRoute',
 				), */
 			),
+		),
+		'mail' => array(
+				'class' => 'ext.yii-mail.YiiMail',
+				'transportType'=>'smtp',
+				'transportOptions'=>array(
+						'host'=>'mail.thaismartins.rocks',
+						'username'=>'contato@thaismartins.rocks',
+						'password'=>'!thais14',
+						'port'=>'587',
+				),
+				'viewPath' => 'application.views.mail',
+				'logging' => true,
 		),
 	),
 

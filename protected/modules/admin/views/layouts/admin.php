@@ -27,7 +27,7 @@
 		<nav class="navbar navbar-green navbar-static-top" role="navigation">		
 			<!-- LOGO -->
 			<div class="navbar-header">
-				<a class="navbar-brand" href="index.html">
+				<a class="navbar-brand" href="<?php echo Yii::app()->createUrl('admin/default')?>">
 					<i class="fa fa-pencil-square-o"></i>
 					CMS
 				</a>
@@ -37,12 +37,12 @@
 			<!-- / LOGOUT -->
 			<ul class="nav navbar-top-links navbar-right">
 				<li class="dropdown">
-					<a target="_blank" href="<?php echo Yii::app()->createUrl('index')?>" title="Visualizar Site">
+					<a target="_blank" href="<?php echo Yii::app()->createUrl('/')?>" title="Visualizar Site">
 						<i class="fa fa-search-plus fa-2x fa-fw"></i>
 					</a>
 				</li>
 				<li class="dropdown">
-					<a href="<?php echo Yii::app()->params['logoutUrl']?>" title="Sair">
+					<a href="<?php echo Yii::app()->createUrl('admin/default/logout')?>" title="Sair">
 						<i class="fa fa-sign-out fa-2x fa-fw"></i>
 					</a>
 				</li>
