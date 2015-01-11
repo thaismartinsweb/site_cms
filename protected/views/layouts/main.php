@@ -4,10 +4,10 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, user-scalable=no" />
-	<meta name="description" content="CMS | Gerenciador de Conteúdo By Thais Martins" />
-	<link rel="author" href="http://www.tmartins.com" />
+	<meta name="description" content="<?php echo $this->config->title ?>" />
+	<link rel="author" href="<?php echo $this->config->site ?>" />
 
-	<title>Thais Martins | Desenvolvedora Web Freelancer</title>
+	<title><?php echo $this->config->title ?></title>
 	
 	<link href='//fonts.googleapis.com/css?family=Raleway:100,400,300,500,700,900' rel='stylesheet' type='text/css'>
 	
@@ -44,7 +44,7 @@
 						<span class="icon-bar"></span>
 					</button>
 					<a class="navbar-brand" href="index.php">
-						<?php echo CHtml::image($this->createUrl('images/logo.png'), 'Thais Martins | Desenvolvimento Web Freelancer')?>
+						<?php echo CHtml::image($this->createUrl('public/config/'.$this->config->image), $this->config->title)?>
 					</a>
 				</div>
 				
@@ -69,30 +69,30 @@
 			<div class="col-sm-offset-1 col-sm-10 col-md-offset-2 col-md-8 col-xs-12"><hr /></div>
 			<div class="contact col-xs-12">
 				<div class="col-md-offset-2 col-md-2 col-sm-4 col-xs-12">
-					<p><i class="fa fa-comment"></i>11 94129-3240</p>
+					<p><i class="fa fa-comment"></i><?php echo $this->config->contact ?></p>
 				</div>
 				<div class="col-xs-12 col-sm-4 col-md-2">
-					<p><i class="fa fa-laptop"></i><a href="mailto:#">contato@tmartins.com.br</a></p>
+					<p><i class="fa fa-laptop"></i><a href="mailto:<?php echo $this->config->email ?>"><?php echo $this->config->email ?></a></p>
 				</div>
 				<div class="col-xs-12 col-sm-4 col-md-2">
-					<p><i class="fa fa-skype"></i>thamartinss</p>
+					<p><i class="fa fa-skype"></i><?php echo $this->config->skype ?></p>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-2">
 					<div id="socials">
 						<div class="social">
-							<a href="#">
+							<a href="<?php echo $this->config->github ?>">
 								<i class="fa fa-social fa-github-alt hidden-xs github"></i>
 								<span class="hidden-sm hidden-md hidden-lg">GITHUB</span>
 							</a>
 						</div>
 						<div class="social">
-							<a href="#">
+							<a href="<?php echo $this->config->behance ?>">
 								<i class="fa fa-behance hidden-xs behance"></i>
 								<span class="hidden-sm hidden-md hidden-lg">BEHANCE</span>
 							</a>
 						</div>
 						<div class="social">
-							<a href="#">
+							<a href="<?php echo $this->config->linkedin ?>">
 								<i class="fa fa-linkedin hidden-xs linkedin"></i>
 								<span class="hidden-sm hidden-md hidden-lg">LINKEDIN</span>
 							</a>
@@ -104,7 +104,7 @@
 		</div>
 		<div class="row">
 			<div class="col-xs-12 text-center">
-				<address>Desenvolvido por Thaís Martins | <a href="#">thaismartins.rocks</a></address>
+				<address>Desenvolvido por <a href="<?php echo $this->config->site ?>"><?php echo str_replace('http://', '', $this->config->site) ?></a></address>
 			</div>
 		</div>
 	

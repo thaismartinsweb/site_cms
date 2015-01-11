@@ -9,4 +9,5 @@ return array(
 	'Ultimos Conteudos' => 'Últimos Conteúdos',
 	'Gerenciar Conteudo' => 'Gerenciar Conteúdo',
 	'Item nao encontrado' => 'Item não encontrado',
+	'Visualizar Conteudo' => 'Visualizar Conteúdo',
 );

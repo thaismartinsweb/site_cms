@@ -396,21 +396,14 @@
 			  <div class="form-group">
 			    <label for="telefone" class="col-sm-2 control-label">Telefone</label>
 			    <div class="col-sm-10">
-			      <input type="tel" class="form-control input-lg" id="telefone" name="telefone" placeholder="(XX)XXXX-XXXX">
+			      <input type="tel" class="form-control input-lg" id="telefone" name="telefone" placeholder="(99)9999-9999">
 			    </div>
 			  </div>
-			  
+
 			  <div class="form-group">
-			    <label for="site" class="col-sm-2 control-label">Site</label>
+			    <label for="conteudo" class="col-sm-2 control-label">Mensagem</label>
 			    <div class="col-sm-10">
-			      <input type="url" class="form-control input-lg" id="site" name="site" placeholder="http://www.site.com.br">
-			    </div>
-			  </div>
-			  
-			  <div class="form-group">
-			    <label for="conteudo" class="col-sm-2 control-label">Descrição</label>
-			    <div class="col-sm-10">
-					<textarea class="form-control input-lg" rows="5" id="mensagem" name="mensagem" placeholder="Descrição"></textarea>
+					<textarea class="form-control input-lg" rows="5" id="mensagem" name="mensagem" placeholder="Mensagem"></textarea>
 			    </div>
 			  </div>
 	
@@ -425,9 +418,9 @@
 		
 		<div class="col-md-5 hidden-sm hidden-xs">
 			<h3>Precisando de orçamento ou tem alguma dúvida?</h3>
-			<p><i class="fa fa-comment"></i>11 94129-3240</p>
-			<p><i class="fa fa-laptop"></i><a href="mailto:contato@thaismartins.rocks">contato@thaismartins.rocks</a></p>
-			<p><i class="fa fa-skype"></i>thamartinss</p>
+			<p><i class="fa fa-comment"></i><?php echo $this->config->contact ?></p>
+			<p><i class="fa fa-laptop"></i><a href="mailto:<?php echo $this->config->email ?>"><?php echo $this->config->email ?></a></p>
+			<p><i class="fa fa-skype"></i><?php echo $this->config->skype ?></p>
 		</div>
 		
 	</div>

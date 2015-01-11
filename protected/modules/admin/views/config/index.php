@@ -46,8 +46,28 @@
 					</div>
 					
 					<div class="form-group">
-						<?php echo $form->labelEx($model, 'address'); ?>
-						<?php echo $form->textField($model, 'address', array('class' => 'form-control field-xxlg', 'placeholder' => 'Rua Blabla, 123')) ?>
+						<?php echo $form->labelEx($model, 'site'); ?>
+						<?php echo $form->textField($model, 'site', array('class' => 'form-control field-xxlg', 'placeholder' => 'http://www.teste.com.br')) ?>
+					</div>
+					
+					<div class="form-group">
+						<?php echo $form->labelEx($model, 'skype'); ?>
+						<?php echo $form->textField($model, 'skype', array('class' => 'form-control field-xxlg', 'placeholder' => 'usuario')) ?>
+					</div>
+					
+					<div class="form-group">
+						<?php echo $form->labelEx($model, 'github'); ?>
+						<?php echo $form->textField($model, 'github', array('class' => 'form-control field-xxlg', 'placeholder' => 'http://www.teste.com.br')) ?>
+					</div>
+					
+					<div class="form-group">
+						<?php echo $form->labelEx($model, 'behance'); ?>
+						<?php echo $form->textField($model, 'behance', array('class' => 'form-control field-xxlg', 'placeholder' => 'http://www.teste.com.br')) ?>
+					</div>
+					
+					<div class="form-group">
+						<?php echo $form->labelEx($model, 'linkedin'); ?>
+						<?php echo $form->textField($model, 'linkedin', array('class' => 'form-control field-xxlg', 'placeholder' => 'http://www.teste.com.br')) ?>
 					</div>
 					
 					<?php echo CHtml::submitButton($model->isNewRecord ? Yii::t('app', 'Salvar') : Yii::t('app', 'Alterar'), array('class' => 'btn btn-primary')); ?>

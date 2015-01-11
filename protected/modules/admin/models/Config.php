@@ -31,8 +31,8 @@ class Config extends CActiveRecord
 			array('title, email', 'length', 'max'=>200),
 			array('image, contact', 'length', 'max'=>100),
 			array('image', 'file', 'types' => 'jpg, gif, png', 'allowEmpty' => true),
-			array('id, title, email, image, contact, address', 'safe'),
-			array('id, title, email, image, contact, address', 'safe', 'on'=>'search'),
+			array('id, title, email, image, contact, site, skype, github, behance, linkedin', 'safe'),
+			array('id, title, email, image, contact, site, skype, github, behance, linkedin', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -58,7 +58,11 @@ class Config extends CActiveRecord
 			'image' => 'Logo',
 			'email' => 'Email',
 			'contact' => 'Telefone',
-			'address' => 'Endereço',
+			'site' => 'Site',
+			'skype' => 'Skype',
+			'behance' => 'Behance',
+			'github' => 'Github',
+			'linkedin' => 'linkedin',
 		);
 	}
 

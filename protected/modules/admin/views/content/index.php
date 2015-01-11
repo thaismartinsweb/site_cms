@@ -47,7 +47,7 @@
 											<a href="<?php echo $this->createURl(Yii::app()->controller->id.'/edit/'.$item['id']);?>" title="Editar" class="btn btn-primary btn-circle">
 												<i class="fa fa-edit"></i>
 											</a>
-											<a href="<?php echo $this->createURl(Yii::app()->controller->id.'/remove/'.$item['id']);?>" title="Editar" class="btn btn-danger btn-circle">
+											<a href="<?php echo $this->createURl(Yii::app()->controller->id.'/remove/'.$item['id']);?>" title="Excluir" class="btn btn-danger btn-circle">
 												<i class="fa fa-times"></i>
 											</a>
 										</td>

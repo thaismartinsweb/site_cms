@@ -1,6 +1,6 @@
 <div class="row">
 	<div class="col-lg-12">
-		<h3 class="page-header">Últimos Contatos</h3>
+		<h3 class="page-header"><?php echo Yii::t('admin', 'Ultimos Conteudos')?></h3>
 	</div>
 </div>
 
@@ -8,9 +8,6 @@
 	<div class="col-lg-12">
 		<div class="panel panel-default">
 			<div class="panel-body">
-			
-				<?php echo CHtml::showErrorMessage(null); ?>
-				<?php echo CHtml::showSuccessMessage();?>
 				
 				<div class="table-responsive">
 					<table class="table table-striped">
@@ -28,16 +25,16 @@
 									<tr>
 										<td><?php echo $item['id']?></td>
 										<td>
-											<a href="<?php echo Yii::app()->params['adminUrl']?><?php echo strtolower($this->model)?>/view/<?php echo $item['id']?>">
+											<a href="<?php echo $this->createURl(Yii::app()->controller->id.'/show/'.$item['id']);?>">
 												<?php echo $item['name']?>
 											</a>
 										</td>
 										<td><?php echo date ('d/m/Y H:i', strtotime($item['date_create']))?></td>
 										<td>
-											<a href="<?php echo Yii::app()->params['adminUrl']?><?php echo strtolower($this->model)?>/view/<?php echo $item['id']?>" title="Visualizar" class="btn btn-primary btn-circle">
-												<i class="fa fa-search"></i>
+											<a href="<?php echo $this->createURl(Yii::app()->controller->id.'/show/'.$item['id']);?>" title="Editar" class="btn btn-primary btn-circle">
+												<i class="fa fa-edit"></i>
 											</a>
-											<a href="<?php echo Yii::app()->params['adminUrl']?><?php echo strtolower($this->model)?>/remove/<?php echo $item['id']?>" title="Excluir" class="btn btn-danger btn-circle">
+											<a href="<?php echo $this->createURl(Yii::app()->controller->id.'/remove/'.$item['id']);?>" title="Excluir" class="btn btn-danger btn-circle">
 												<i class="fa fa-times"></i>
 											</a>
 										</td>

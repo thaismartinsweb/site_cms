@@ -2,35 +2,24 @@
 
 class ContactController extends Controller
 {
-	public function actionView($id = null)
+	public function actionShow($id)
 	{
-		if($id){
-			$data = array(	'model' => $this->getCurrentModel($id),
-							'types' => $this->getTypesMenu(),
-							'menus' => $this->getMenus());
-			
-			$this->render('view', $data);
-		} else {
-			$this->redirect($this->createUrl('index'));
-		}
+		$model = Contact::model()->findByPk($id);
+		var_Dump($model);
+		$this->render('view', array('model' => $model));
 	}
 
 	public function actionIndex()
 	{
-		$this->breadcrumbs = $this->createBreadcrumbs('index');
-		$itens = Contact::model()->findAll(array('order'=>'date_create DESC'));
-		$data = array('itens' => $itens);
-		$this->render('index', $data);
+		$itens = Contact::model()->findAll(array('order' => 'date_create DESC'));
+		$this->render('index', array('itens' => $itens));
 	}
 	
 	public function actionRemove($id = null)
 	{
-		if($id)
-		{
-			$model = $this->getCurrentModel($id);
-			$this->deleteModel($model);
-		}
-	
+		$model = Contact::model()->findByPk($id);
+		$model->delete();
+		
 		$this->redirect($this->createUrl('index'));
 	}
 	
