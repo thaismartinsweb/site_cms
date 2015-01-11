@@ -1,0 +1,16 @@
+drop table `thaismar_site`.config;
+drop table `thaismar_site`.contact;
+drop table `thaismar_site`.content;
+drop table `thaismar_site`.help;
+drop table `thaismar_site`.menu;
+drop table `thaismar_site`.module;
+drop table `thaismar_site`.photo;
+drop table `thaismar_site`.photo_gallery;
+drop table `thaismar_site`.product;
+drop table `thaismar_site`.product_category;
+drop table `thaismar_site`.type_menu;
+drop table `thaismar_site`.type_page;
+drop table `thaismar_site`.type_video;
+drop table `thaismar_site`.user;
+drop table `thaismar_site`.video;
+drop table `thaismar_site`.video_gallery;

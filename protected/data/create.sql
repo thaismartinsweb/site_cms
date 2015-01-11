@@ -1,8 +1,8 @@
-CREATE SCHEMA `cms` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci ;
+CREATE SCHEMA `thaismar_site` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci ;
 USE cms;
 
 
-CREATE TABLE `cms`.`module` (
+CREATE TABLE `thaismar_site`.`module` (
   `id` INT NOT NULL AUTO_INCREMENT,
   `title` VARCHAR(100) NOT NULL,
   `controller` VARCHAR(100) NOT NULL,
@@ -13,7 +13,7 @@ DEFAULT CHARACTER SET = utf8
 COLLATE = utf8_general_ci;
 
 
-insert into module values
+insert into `thaismar_site`.module values
 (null, 'Home', '', 'home'),
 (null, 'Dados do Site', 'config', 'cogs'),
 (null, 'Menu', 'menu', 'tasks'),
@@ -21,26 +21,26 @@ insert into module values
 (null, 'Serviços', 'service', 'code'),
 (null, 'Portfolio', 'portfolio', 'desktop'),
 (null, 'Galeria de Fotos', 'photogallery', 'camera-retro'),
-(null, 'Contatos', 'contact', 'envelope-o'));
+(null, 'Contatos', 'contact', 'envelope-o');
+
+
+CREATE TABLE `thaismar_site`.`config` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `title` varchar(200) NOT NULL,
+  `image` varchar(100) DEFAULT NULL,
+  `email` varchar(200) NOT NULL,
+  `contact` varchar(100) DEFAULT NULL,
+  `site` varchar(100) DEFAULT NULL,
+  `skype` varchar(45) DEFAULT NULL,
+  `behance` varchar(45) DEFAULT NULL,
+  `github` varchar(45) DEFAULT NULL,
+  `linkedin` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
 
 
 
-CREATE TABLE `cms`.`config` (
-  `id` INT NOT NULL AUTO_INCREMENT,
-  `title` VARCHAR(200) NOT NULL,
-  `image` VARCHAR(100),
-  `email` VARCHAR(200) NOT NULL,
-  `contact` VARCHAR(100),
-  `address` TEXT,
-  PRIMARY KEY (`id`))
-ENGINE = InnoDB
-DEFAULT CHARACTER SET = utf8
-COLLATE = utf8_general_ci;
-
-
-
-
-CREATE TABLE `cms`.`type_menu` (
+CREATE TABLE `thaismar_site`.`type_menu` (
   `id` INT NOT NULL AUTO_INCREMENT,
   `title` VARCHAR(100) NOT NULL,
   `controller` VARCHAR(100) NOT NULL,
@@ -58,7 +58,7 @@ insert into type_menu values
 
 
 
-CREATE TABLE `cms`.`menu` (
+CREATE TABLE `thaismar_site`.`menu` (
   `id` INT NOT NULL AUTO_INCREMENT,
   `master_id` INT NULL,
   `type_menu_id` INT NOT NULL,
@@ -71,22 +71,22 @@ CREATE TABLE `cms`.`menu` (
   INDEX `fk_type_menu_idx` (`type_menu_id` ASC),
   CONSTRAINT `fk_type_menu`
     FOREIGN KEY (`type_menu_id`)
-    REFERENCES `cms`.`type_menu` (`id`)
+    REFERENCES `thaismar_site`.`type_menu` (`id`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
 ENGINE = InnoDB
 DEFAULT CHARACTER SET = utf8
 COLLATE = utf8_general_ci;
 
-ALTER TABLE `cms`.`menu` 
+ALTER TABLE `thaismar_site`.`menu` 
 ADD CONSTRAINT `fk_master`
   FOREIGN KEY (`master_id`)
-  REFERENCES `cms`.`menu` (`id`)
+  REFERENCES `thaismar_site`.`menu` (`id`)
   ON DELETE NO ACTION
   ON UPDATE NO ACTION;
 
 
-CREATE TABLE `cms`.`type_page` (
+CREATE TABLE `thaismar_site`.`type_page` (
   `id` INT NOT NULL AUTO_INCREMENT,
   `title` VARCHAR(100) NOT NULL,
   `description` TEXT NULL,
@@ -102,7 +102,7 @@ insert into type_page values
 
 
 
-CREATE TABLE `cms`.`type_portfolio` (
+CREATE TABLE `thaismar_site`.`type_portfolio` (
   `id` INT(11) NOT NULL AUTO_INCREMENT,
   `title` VARCHAR(45) NULL,
   PRIMARY KEY (`id`))
@@ -110,7 +110,7 @@ DEFAULT CHARACTER SET = utf8
 COLLATE = utf8_general_ci;
 
 
-INSERT INTO `cms`.`type_portfolio` VALUES
+INSERT INTO `thaismar_site`.`type_portfolio` VALUES
 (null, 'DESIGN'),
 (null, 'HTML'),
 (null, 'CSS'),
@@ -121,7 +121,7 @@ INSERT INTO `cms`.`type_portfolio` VALUES
 
 
 
-CREATE TABLE `cms`.`content` (
+CREATE TABLE `thaismar_site`.`content` (
   `id` INT NOT NULL AUTO_INCREMENT,
   `menu_id` INT NULL,
   `type_page_id` INT NULL,
@@ -135,12 +135,12 @@ CREATE TABLE `cms`.`content` (
   INDEX `fk_type_page_id` (`type_page_id` ASC),
   CONSTRAINT `fk_menu`
     FOREIGN KEY (`menu_id`)
-    REFERENCES `cms`.`menu` (`id`)
+    REFERENCES `thaismar_site`.`menu` (`id`)
     ON DELETE SET NULL
     ON UPDATE SET NULL,
   CONSTRAINT `fk_type_page`
     FOREIGN KEY (`type_page_id`)
-    REFERENCES `cms`.`type_page` (`id`)
+    REFERENCES `thaismar_site`.`type_page` (`id`)
     ON DELETE SET NULL
     ON UPDATE SET NULL)
 ENGINE = InnoDB
@@ -148,7 +148,7 @@ DEFAULT CHARACTER SET = utf8
 COLLATE = utf8_general_ci;
 
 
-CREATE TABLE `cms`.`portfolio` (
+CREATE TABLE `thaismar_site`.`portfolio` (
   `id` INT(11) NOT NULL AUTO_INCREMENT,
   `title` VARCHAR(100) NULL,
   `site` VARCHAR(100) NULL,
@@ -161,26 +161,26 @@ COLLATE = utf8_general_ci;
 
 
 
-CREATE TABLE `cms`.`type_x_portfolio` (
+CREATE TABLE `thaismar_site`.`type_x_portfolio` (
   `id_type` INT(11) NOT NULL,
   `id_portfolio` INT(11) NOT NULL,
   INDEX `fk_type_x_portfolio_2_idx` (`id_portfolio` ASC),
   PRIMARY KEY (`id_type`, `id_portfolio`),
   CONSTRAINT `fk_type_x_portfolio_1`
     FOREIGN KEY (`id_type`)
-    REFERENCES `cms`.`type_portfolio` (`id`)
+    REFERENCES `thaismar_site`.`type_portfolio` (`id`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION,
   CONSTRAINT `fk_type_x_portfolio_2`
     FOREIGN KEY (`id_portfolio`)
-    REFERENCES `cms`.`portfolio` (`id`)
+    REFERENCES `thaismar_site`.`portfolio` (`id`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
 DEFAULT CHARACTER SET = utf8
 COLLATE = utf8_general_ci;
 
 
-CREATE TABLE `cms`.`photo_gallery` (
+CREATE TABLE `thaismar_site`.`photo_gallery` (
   `id` INT NOT NULL AUTO_INCREMENT,
   `id_portfolio` INT,
   `title` VARCHAR(100) NOT NULL,
@@ -191,7 +191,7 @@ CREATE TABLE `cms`.`photo_gallery` (
   PRIMARY KEY (`id`),
   CONSTRAINT `fk_photo_gallery_1`
   	FOREIGN KEY (`id_portfolio`)
-  	REFERENCES `cms`.`portfolio` (`id`)
+  	REFERENCES `thaismar_site`.`portfolio` (`id`)
   	ON DELETE NO ACTION
   	ON UPDATE NO ACTION)
 ENGINE = InnoDB
@@ -200,7 +200,7 @@ COLLATE = utf8_general_ci;
 
 
 
-CREATE TABLE `cms`.`service` (
+CREATE TABLE `thaismar_site`.`service` (
   `id` INT(11) NOT NULL AUTO_INCREMENT,
   `title` VARCHAR(100) NULL,
   `description` TEXT NULL,
@@ -211,10 +211,11 @@ DEFAULT CHARACTER SET = utf8
 COLLATE = utf8_general_ci;
 
 
-CREATE TABLE `cms`.`contact` (
+CREATE TABLE `thaismar_site`.`contact` (
   `id` INT NOT NULL AUTO_INCREMENT,
   `name` VARCHAR(100) NOT NULL,
   `email` VARCHAR(100) NOT NULL,
+  `phone` VARCHAR(100) NOT NULL,
   `content` TEXT NOT NULL,
   `date_create` DATETIME NOT NULL,
   PRIMARY KEY (`id`))
@@ -223,21 +224,7 @@ DEFAULT CHARACTER SET = utf8
 COLLATE = utf8_general_ci;
 
 
-CREATE TABLE `cms`.`photo_gallery` (
-  `id` INT NOT NULL AUTO_INCREMENT,
-  `id_portfolio` INT,
-  `title` VARCHAR(100) NOT NULL,
-  `image` VARCHAR(100) NULL,
-  `description` TEXT NULL,
-  `exibition` INT NULL,
-  `date_create` DATETIME NOT NULL,
-  PRIMARY KEY (`id`))
-ENGINE = InnoDB
-DEFAULT CHARACTER SET = utf8
-COLLATE = utf8_general_ci;
-
-
-CREATE TABLE `cms`.`user` (
+CREATE TABLE `thaismar_site`.`user` (
   `id` INT NOT NULL AUTO_INCREMENT,
   `name` VARCHAR(100) NULL,
   `username` VARCHAR(100) NOT NULL,
@@ -247,4 +234,4 @@ ENGINE = InnoDB
 DEFAULT CHARACTER SET = utf8
 COLLATE = utf8_general_ci;
 
-INSERT INTO `cms`.`user` VALUES (null, 'Administrador', 'admin', '24e7a730ff315b8bb4f013a282b98ebd');
+INSERT INTO `thaismar_site`.`user` VALUES (null, 'Administrador', 'admin', '24e7a730ff315b8bb4f013a282b98ebd');

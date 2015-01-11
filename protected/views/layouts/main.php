@@ -121,6 +121,7 @@
 	<script src="js/jquery.isMobile.js"></script>
 	<script src="js/jquery.site.js"></script>
 	<script src="js/jquery.menu.js"></script>
+	<script src="js/jquery.ajax.js"></script>
 	
 </body>
 </html>

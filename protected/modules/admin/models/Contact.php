@@ -6,11 +6,8 @@
  * The followings are the available columns in table 'contact':
  * @property integer $id
  * @property string $name
- * @property string $company
- * @property string $departament
- * @property string $contact
+ * @property string $phone
  * @property string $email
- * @property string $subject
  * @property string $content
  * @property string $date_create
  */
@@ -29,15 +26,11 @@ class Contact extends CActiveRecord
 	 */
 	public function rules()
 	{
-		// NOTE: you should only define rules for those attributes that
-		// will receive user inputs.
 		return array(
-			array('name, contact, email, content, date_create', 'required'),
-			array('name, company, departament, contact, email', 'length', 'max'=>100),
-			array('subject', 'length', 'max'=>200),
-			// The following rule is used by search().
-			// @todo Please remove those attributes that should not be searched.
-			array('id, name, company, departament, contact, email, subject, content, date_create', 'safe', 'on'=>'search'),
+			array('name, email, content, date_create', 'required'),
+			array('name, email', 'length', 'max' => 100),
+			array('email','email'),
+			array('id, name, email, phone, content, date_create', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -46,8 +39,6 @@ class Contact extends CActiveRecord
 	 */
 	public function relations()
 	{
-		// NOTE: you may need to adjust the relation name and the related
-		// class name for the relations automatically generated below.
 		return array(
 		);
 	}
@@ -58,14 +49,11 @@ class Contact extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'id' => 'ID',
+			'id' => 'Id',
 			'name' => 'Name',
-			'company' => 'Company',
-			'departament' => 'Departament',
-			'contact' => 'Contact',
 			'email' => 'Email',
-			'subject' => 'Subject',
-			'content' => 'Content',
+			'phone' => 'Telefone',
+			'content' => 'Mensagem',
 			'date_create' => 'Date Create',
 		);
 	}
@@ -84,17 +72,12 @@ class Contact extends CActiveRecord
 	 */
 	public function search()
 	{
-		// @todo Please modify the following code to remove attributes that should not be searched.
-
 		$criteria=new CDbCriteria;
 
 		$criteria->compare('id',$this->id);
 		$criteria->compare('name',$this->name,true);
-		$criteria->compare('company',$this->company,true);
-		$criteria->compare('departament',$this->departament,true);
-		$criteria->compare('contact',$this->contact,true);
 		$criteria->compare('email',$this->email,true);
-		$criteria->compare('subject',$this->subject,true);
+		$criteria->compare('phone',$this->phone,true);
 		$criteria->compare('content',$this->content,true);
 		$criteria->compare('date_create',$this->date_create,true);
 

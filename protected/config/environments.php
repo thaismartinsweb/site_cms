@@ -8,21 +8,21 @@ switch($url[0])
 	case 'dev':
 		$data = array(
 			'adminEmail'=> 'thaismartinsweb@gmail.com',
-			'publicPath' => '/var/www/site/public/',
+			'publicPath' => str_replace('proteced', 'public', dirname(__DIR__)) . '/',
 		);
 	break;
 	
 	case 'localhost':
 		$data =  array(
 			'adminEmail'=> 'thaismartinsweb@gmail.com',
-			'publicPath' => '/var/www/html/public/',
+			'publicPath' => str_replace('proteced', 'public', dirname(__DIR__)) . '/',
 		);
 	break;
 	
 	default:
 		$data =  array(
 			'adminEmail'=> 'thaismartinsweb@gmail.com',
-			'publicPath' => '/var/www/site/public/',
+			'publicPath' => str_replace('proteced', 'public', dirname(__DIR__)) . '/',
 		);
 	break;
 	

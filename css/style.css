@@ -356,6 +356,7 @@ fieldset[disabled] .btn-amethyst.active {
 
 #about .content p {
 	margin:20px 0;
+	font-size: 14px;
 }
 
 #about .content h1 {
@@ -466,7 +467,7 @@ fieldset[disabled] .btn-amethyst.active {
 }
 
 #services .contentSelect h1{
-	font-size:22px;
+	font-size:18px;
 	font-weight:600;
 	border-bottom:1px solid #d5e8e1;
 	padding:15px 0;
@@ -474,7 +475,7 @@ fieldset[disabled] .btn-amethyst.active {
 }
 
 #services .contentSelect p{
-	font-size:16px;
+	font-size:14px;
 	line-height:25px;
 	margin: 20px 0;
 }
@@ -547,7 +548,7 @@ fieldset[disabled] .btn-amethyst.active {
 }
 
 #contact p, #contact p i {
-	font-size:20px;
+	font-size:16px;
 	margin:10px;
 }
 
@@ -563,32 +564,41 @@ fieldset[disabled] .btn-amethyst.active {
 	color:#c0392b;
 }
 
-#contact label {
-	margin-bottom:10px;
+#contact input, #contact textarea, #contact label {
+	font-size:14px;
 }
 
-#contact #sendFail .alert {
-	background-color:#d43f3a;
+#contact #sendFail  {
+	background-color:#E65050;
 	padding:10px 15px;
 	display:none;
 	color:#fff;
 	text-align:center;
+	font-size: 16px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
 }
 
-#contact #sendFail .alert a {
-	color:#fff;
+#contact #sendFail p {
+	font-size: 16px;
+}
+
+#contact #sendFail p a {
+	color: #FFB3B3;
 	font-weight:600;
 }
 
-#contact #sendFail .alert strong {
+#contact #sendFail strong {
 	font-weight:600;
 }
 
-#contact #sendOk .alert {
+#contact #sendOk {
 	background-color:#5cb85c;
 	padding:10px 15px;
 	display:none;
 	color:#fff;
+	text-align:center;
 	text-align:center;
 }
 

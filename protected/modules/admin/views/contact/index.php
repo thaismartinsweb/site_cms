@@ -32,7 +32,7 @@
 										<td><?php echo date ('d/m/Y H:i', strtotime($item['date_create']))?></td>
 										<td>
 											<a href="<?php echo $this->createURl(Yii::app()->controller->id.'/show/'.$item['id']);?>" title="Editar" class="btn btn-primary btn-circle">
-												<i class="fa fa-edit"></i>
+												<i class="fa fa-search"></i>
 											</a>
 											<a href="<?php echo $this->createURl(Yii::app()->controller->id.'/remove/'.$item['id']);?>" title="Excluir" class="btn btn-danger btn-circle">
 												<i class="fa fa-times"></i>

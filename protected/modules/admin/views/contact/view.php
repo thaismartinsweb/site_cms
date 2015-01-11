@@ -14,6 +14,7 @@
 						<tbody>
 							<tr><td><b>Data do Contato:</b> <?php echo date ('d/m/Y H:i', strtotime($model['date_create']))?></td></tr>
 							<tr><td><b>Email:</b> <?php echo $model['email']?></td></tr>
+							<tr><td><b>Telefone:</b> <?php echo $model['phone']?></td></tr>
 							<tr><td><b>Conteúdo:</b> <?php echo $model['content']?></td></tr>
 						</tbody>
 					</table>

@@ -5,7 +5,6 @@ class ContactController extends Controller
 	public function actionShow($id)
 	{
 		$model = Contact::model()->findByPk($id);
-		var_Dump($model);
 		$this->render('view', array('model' => $model));
 	}
 
