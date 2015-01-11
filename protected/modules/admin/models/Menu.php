@@ -67,14 +67,14 @@ class Menu extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'id' => 'ID',
-			'master_id' => 'Master',
-			'type_menu_id' => 'Type Menu',
-			'title' => 'Title',
-			'description' => 'Description',
-			'image' => 'Image',
-			'special' => 'Special',
-			'exibition' => 'Exibition',
+			'id' => 'Id',
+			'master_id' => 'Menu Pai',
+			'type_menu_id' => 'Tipo de Menu',
+			'title' => 'Títuo',
+			'description' => 'Descrição',
+			'image' => 'Imagem',
+			'special' => 'Exibir menu na Página Inicial',
+			'exibition' => 'Ordem de Exibição',
 		);
 	}
 

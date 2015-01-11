@@ -2,50 +2,51 @@
 
 class MenuController extends Controller
 {
-	public function beforeAction($action)
+	public function actionIndex()
 	{
-		$this->post = isset($_POST['Menu']) ? $_POST['Menu'] : false;
-		return parent::beforeAction($action);
+		$menus = Menu::model()->findAll(array('order' => 'exibition ASC'));
+	
+		$this->render('index', array('itens' => $menus));
 	}
 
 	public function actionEdit($id = null)
 	{
-		if($id){
-			$data = array(	'model' => $this->getCurrentModel($id),
-							'types' => $this->getTypesMenu(),
-							'menus' => $this->getMenus());
-			
-			$this->render('edit', $data);
-		} else {
-			$this->redirect('index');
-		}
-	}
 
-	public function actionNew()
-	{
-
-		$data = array(	'model' => $this->getCurrentModel(),
-						'types' => $this->getTypesMenu(),
-						'menus' => $this->getMenus());
+		$model = Menu::model()->findByPk($id);
 		
-		$this->render('edit', $data);		
+		if(!$model) {
+			$model = new Menu();
+		}
+		
+		if(isset($_POST['Menu'])) {
+			$model->attributes = $_POST['Menu'];
+				
+			$image = CUploadedFile::getInstance($model, 'image');
+				
+			if($image) {
+				$file = Yii::app()->params['publicPath'].Yii::app()->controller->id.'/'.$image->name;
+				$image->saveAs($file);
+				$model->image = $image->name;
+			}
+				
+			$model->save();
+		}
+		
+		$types = TypeMenu::model()->findAll();
+		$menus = Menu::model()->findAll(array('order' => 'exibition ASC'));
+
+		$this->render('edit', array('model' => $model,
+									'types' => CHtml::listData($types, 'id', 'title'),
+									'menus' => CHtml::listData($menus, 'id', 'title') ));
 	}
 
-	public function actionIndex()
+	public function actionRemove($id)
 	{
-		$data = array('itens' => Menu::model()->findAll(array('order'=>'exibition')));
-		$this->render('index', $data);
-	}
-	
-	public function actionRemove($id = null)
-	{
-		if($id)
-		{
-			$model = $this->getCurrentModel($id);
-			$this->deleteModel($model);
-		}
-	
+		Yii::log('Deletando conteúdo do site - id '.$id, 'info');
+
+		$model = Content::model()->findByPk($id);
+		$model->delete();
+		
 		$this->redirect($this->createUrl('index'));
 	}
-	
 }
