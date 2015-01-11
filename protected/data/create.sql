@@ -20,7 +20,7 @@ insert into `thaismar_site`.module values
 (null, 'Conteúdo', 'content', 'quote-left'),
 (null, 'Serviços', 'service', 'code'),
 (null, 'Portfolio', 'portfolio', 'desktop'),
-(null, 'Galeria de Fotos', 'photogallery', 'camera-retro'),
+(null, 'Fotos do Portfólio', 'photo', 'camera-retro'),
 (null, 'Contatos', 'contact', 'envelope-o');
 
 
@@ -180,24 +180,21 @@ DEFAULT CHARACTER SET = utf8
 COLLATE = utf8_general_ci;
 
 
-CREATE TABLE `thaismar_site`.`photo_gallery` (
+CREATE TABLE `cms`.`photo` (
   `id` INT NOT NULL AUTO_INCREMENT,
   `id_portfolio` INT,
   `title` VARCHAR(100) NOT NULL,
   `image` VARCHAR(100) NULL,
-  `description` TEXT NULL,
   `exibition` INT NULL,
-  `date_create` DATETIME NOT NULL,
   PRIMARY KEY (`id`),
-  CONSTRAINT `fk_photo_gallery_1`
+  CONSTRAINT `fk_photo_1`
   	FOREIGN KEY (`id_portfolio`)
-  	REFERENCES `thaismar_site`.`portfolio` (`id`)
+  	REFERENCES `cms`.`portfolio` (`id`)
   	ON DELETE NO ACTION
   	ON UPDATE NO ACTION)
 ENGINE = InnoDB
 DEFAULT CHARACTER SET = utf8
 COLLATE = utf8_general_ci;
-
 
 
 CREATE TABLE `thaismar_site`.`service` (
