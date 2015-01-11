@@ -9,14 +9,12 @@
 
 	<title><?php echo $this->config->title ?></title>
 	
-	<link href='//fonts.googleapis.com/css?family=Raleway:100,400,300,500,700,900' rel='stylesheet' type='text/css'>
+	<?php Yii::app()->clientScript->registerCssFile('//fonts.googleapis.com/css?family=Raleway:100,400,300,500,700,900'); ?>
 	
-	<link href="css/bootstrap.css" rel="stylesheet" />
-	<link href="css/social-buttons.css" rel="stylesheet" />
-	<link href="css/style.css" rel="stylesheet" />
-	
-	<!-- LayerSlider stylesheet -->
-	<link rel="stylesheet" href="css/layerslider.css" type="text/css">
+	<?php Yii::app()->clientScript->registerCssFile(Yii::app()->request->baseUrl.'css/bootstrap.css'); ?>
+	<?php Yii::app()->clientScript->registerCssFile(Yii::app()->baseUrl.'css/social-buttons.css'); ?>
+	<?php Yii::app()->clientScript->registerCssFile(Yii::app()->baseUrl.'css/style.css'); ?>
+	<?php Yii::app()->clientScript->registerCssFile(Yii::app()->baseUrl.'css/layerslider.css'); ?>
 	
 	<!--[if lt IE 9]>
 	<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -109,19 +107,20 @@
 		</div>
 	
 	</footer>
-
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	
-	<script src="js/greensock.js"></script>
-	<script src="js/layerslider.transitions.js"></script>
-	<script src="js/layerslider.kreaturamedia.jquery.js"></script>
+	<?php Yii::app()->clientScript->registerScriptFile('https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js', CClientScript::POS_END); ?>
 	
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/jquery.onepage.js"></script>
-	<script src="js/jquery.isMobile.js"></script>
-	<script src="js/jquery.site.js"></script>
-	<script src="js/jquery.menu.js"></script>
-	<script src="js/jquery.ajax.js"></script>
+	<?php Yii::app()->clientScript->registerScriptFile(Yii::app()->baseUrl.'js/greensock.js', CClientScript::POS_END); ?>
+	<?php Yii::app()->clientScript->registerScriptFile(Yii::app()->baseUrl.'js/layerslider.transitions.js', CClientScript::POS_END); ?>
+	<?php Yii::app()->clientScript->registerScriptFile(Yii::app()->baseUrl.'js/layerslider.kreaturamedia.jquery.js', CClientScript::POS_END); ?>
+	
+	<?php Yii::app()->clientScript->registerScriptFile(Yii::app()->baseUrl.'js/bootstrap.min.js', CClientScript::POS_END); ?>
+	<?php Yii::app()->clientScript->registerScriptFile(Yii::app()->baseUrl.'js/jquery.onepage.js', CClientScript::POS_END); ?>
+	
+	<?php Yii::app()->clientScript->registerScriptFile(Yii::app()->baseUrl.'js/jquery.isMobile.js', CClientScript::POS_END); ?>
+	<?php Yii::app()->clientScript->registerScriptFile(Yii::app()->baseUrl.'js/query.site.js', CClientScript::POS_END); ?>
+	<?php Yii::app()->clientScript->registerScriptFile(Yii::app()->baseUrl.'js/jquery.menu.js', CClientScript::POS_END); ?>
+	<?php Yii::app()->clientScript->registerScriptFile(Yii::app()->baseUrl.'js/jquery.ajax.js', CClientScript::POS_END); ?>
 	
 </body>
 </html>

@@ -6,10 +6,11 @@
 // This is the main Web application configuration. Any writable
 // CWebApplication properties can be configured here.
 return array(
-	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
+	'basePath' => dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
 	'name'=>'CMS | Gerenciador de Conteúdo',
 	'language' => 'pt_br',
 	'sourceLanguage' => 'pt',
+	'defaultController' => 'home',
 
 	// preloading 'log' component
 	'preload'=>array('log'),
@@ -35,6 +36,9 @@ return array(
 
 	// application components
 	'components'=>array(
+		'request' => array(
+			'baseUrl' => require_once 'url_environments.php',
+		),
 		'user'=>array(
 			// enable cookie-based authentication
 			'allowAutoLogin'=>true,
