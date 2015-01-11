@@ -7,11 +7,13 @@ class HomeController extends Controller
 	public function actionIndex()
 	{
 		$services = Service::model()->findAll();
+		$portfolios = Portfolio::model()->findAll();
 		$this->config = Config::model()->findByPk(1);
 		
 		$this->layout = "main";
 		$this->render('index', array('contactForm' => new ContactForm(),
-									 'services' => $services));
+									 'services' => $services,
+									 'portfolios' => $portfolios));
 	}
 	
 

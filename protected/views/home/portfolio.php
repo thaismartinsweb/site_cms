@@ -9,127 +9,40 @@
 			</div>
 		</div>
 		
-			<div class="col-md-offset-1 col-md-2 col-sm-4 col-xs-12 text-center">
-				<div class="thumbnail item">
-					<a href="#">
-						<img src="images/layout-site.jpg" alt="Portfolio" title="Portfolio" class="img-rounded img-responsive" />
-					</a>
-					<p class="title">Cliente X</p>
-					<div class="division"><hr /></div>
-					<div class="works">
-						<span><a href="#">Design</a></span>
-						<span><a href="#">CSS</a></span>
-						<span><a href="#">HTML</a></span>
+		<?php if($portfolios) { ?>
+			<?php $i = 1; ?>
+			<?php foreach($portfolios as $portfolio) {?>
+				<div class="col-md-2 col-sm-4 col-xs-12 text-center <?php echo ($i == 1) ? 'col-md-offset-1' : ''; ?>">
+					<div class="thumbnail item">
+						<a href="<?php echo $this->createUrl('portfolio/'.$portfolio->id)?>">
+							<?php
+								$image = '/public/portfolio/' . $portfolio->image;
+								echo CHtml::image($image, $portfolio->title, array('style' => 'max-width:200px;margin:10px;', 'class' => 'img-rounded img-responsive'));
+							?>
+						</a>
+						<p class="title"><?php echo $portfolio->title ?></p>
+						<div class="division"><hr /></div>
+						<div class="works">
+							<?php
+								$tags = Tag::model()->findByPortfolio($portfolio->id);
+								
+								foreach($tags as $tag){
+									echo '<span><a href="'.$this->createUrl('portfolio/tag/'.$tag->id).'">'.$tag->title.'</a></span>';
+								}
+							?>
+						</div>
+						<p class="description"><?php echo $portfolio->description ?></p>
+						<div class="btn-group">
+							<?php if($portfolio->site != '') {?>
+								<a href="<?php echo $portfolio->site ?>" target="_blank" class="btn btn-danger btn-xs" role="button"><i class="fa fa-search"></i>Site</a>
+							<?php } ?>
+							<a href="<?php echo $this->createUrl('portfolio/'.$portfolio->id)?>" class="btn btn-danger btn-xs" role="button"><i class="fa fa-plus"></i>Detalhes</a>
+						</div>
 					</div>
-					<p class="description">Tenha autonomia com um site com gerenciador de conteúdo</p>
-					<div class="btn-group">
-						<a href="#" class="btn btn-danger btn-xs" role="button"><i class="fa fa-search"></i>Site</a>
-						<a href="#" class="btn btn-danger btn-xs" role="button"><i class="fa fa-plus"></i>Detalhes</a>
-					</div>
-				</div>
-			</div>
-			
-			<div class="col-md-2 col-sm-4 col-xs-12 text-center">
-				<div class="thumbnail item">
-					<a href="#">
-						<img src="images/layout-site.jpg" alt="Portfolio" title="Portfolio" class="img-rounded img-responsive" />
-					</a>
-					<p class="title">Cliente X</p>
-					<div class="division"><hr /></div>
-					<div class="works">
-						<span><a href="#">Design</a></span>
-						<span><a href="#">CSS</a></span>
-						<span><a href="#">HTML</a></span>
-					</div>
-					<p class="description">Tenha autonomia com um site com gerenciador de conteúdo</p>
-					<div class="btn-group">
-						<a href="#" class="btn btn-danger btn-xs" role="button"><i class="fa fa-search"></i>Site</a>
-						<a href="#" class="btn btn-danger btn-xs" role="button"><i class="fa fa-plus"></i>Detalhes</a>
-					</div>
-				</div>
-			</div>
-			
-			
-			<div class="col-md-2 col-sm-4 col-xs-12 text-center">
-				<div class="thumbnail item">
-					<a href="#">
-						<img src="images/layout-site.jpg" alt="Portfolio" title="Portfolio" class="img-rounded img-responsive" />
-					</a>
-					<p class="title">Cliente X</p>
-					<div class="division"><hr /></div>
-					<div class="works">
-						<span><a href="#">Design</a></span>
-						<span><a href="#">CSS</a></span>
-						<span><a href="#">HTML</a></span>
-					</div>
-					<p class="description">Tenha autonomia com um site com gerenciador de conteúdo</p>
-					<div class="btn-group">
-						<a href="#" class="btn btn-danger btn-xs" role="button"><i class="fa fa-search"></i>Site</a>
-						<a href="#" class="btn btn-danger btn-xs" role="button"><i class="fa fa-plus"></i>Detalhes</a>
-					</div>
-				</div>
-			</div>
-			
-			<div class="col-md-2 col-sm-4 col-xs-12 text-center">
-				<div class="thumbnail item">
-					<a href="#">
-						<img src="images/layout-site.jpg" alt="Portfolio" title="Portfolio" class="img-rounded img-responsive" />
-					</a>
-					<p class="title">Cliente X</p>
-					<div class="division"><hr /></div>
-					<div class="works">
-						<span><a href="#">Design</a></span>
-						<span><a href="#">CSS</a></span>
-						<span><a href="#">HTML</a></span>
-					</div>
-					<p class="description">Tenha autonomia com um site com gerenciador de conteúdo</p>
-					<div class="btn-group">
-						<a href="#" class="btn btn-danger btn-xs" role="button"><i class="fa fa-search"></i>Site</a>
-						<a href="#" class="btn btn-danger btn-xs" role="button"><i class="fa fa-plus"></i>Detalhes</a>
-					</div>
-				</div>
-			</div>
-			
-			<div class="col-md-2 col-sm-4 col-xs-12 text-center">
-				<div class="thumbnail item">
-					<a href="#">
-						<img src="images/layout-site.jpg" alt="Portfolio" title="Portfolio" class="img-rounded img-responsive" />
-					</a>
-					<p class="title">Cliente X</p>
-					<div class="division"><hr /></div>
-					<div class="works">
-						<span><a href="#">Design</a></span>
-						<span><a href="#">CSS</a></span>
-						<span><a href="#">HTML</a></span>
-						<span><a href="#">PHP</a></span>
-						<span><a href="#">Mysql</a></span>
-					</div>
-					<p class="description">Tenha autonomia com um site com gerenciador de conteúdo</p>
-					<div class="btn-group">
-						<a href="#" class="btn btn-danger btn-xs" role="button"><i class="fa fa-search"></i>Site</a>
-						<a href="#" class="btn btn-danger btn-xs" role="button"><i class="fa fa-plus"></i>Detalhes</a>
-					</div>
-				</div>
-			</div>
-			
-			<div class="col-md-offset-1 col-md-2 col-sm-4 col-xs-12 text-center">
-				<div class="thumbnail item">
-					<a href="#">
-						<img src="images/layout-site.jpg" alt="Portfolio" title="Portfolio" class="img-rounded img-responsive" />
-					</a>
-					<p class="title">Cliente X</p>
-					<div class="division"><hr /></div>
-					<div class="works">
-						<span><a href="#">Design</a></span>
-						<span><a href="#">CSS</a></span>
-						<span><a href="#">HTML</a></span>
-					</div>
-					<p class="description">Tenha autonomia com um site com gerenciador de conteúdo</p>
-					<div class="btn-group">
-						<a href="#" class="btn btn-danger btn-xs" role="button"><i class="fa fa-plus"></i>Detalhes</a>
-					</div>
-				</div>
-			</div>	
+				</div>	
+				<?php $i++ ?>
+			<?php }?>
+		<?php }?>
 		
 	</div>
 </section>

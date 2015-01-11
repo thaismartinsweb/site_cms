@@ -102,7 +102,7 @@ insert into type_page values
 
 
 
-CREATE TABLE `thaismar_site`.`type_portfolio` (
+CREATE TABLE `thaismar_site`.`tag` (
   `id` INT(11) NOT NULL AUTO_INCREMENT,
   `title` VARCHAR(45) NULL,
   PRIMARY KEY (`id`))
@@ -110,7 +110,7 @@ DEFAULT CHARACTER SET = utf8
 COLLATE = utf8_general_ci;
 
 
-INSERT INTO `thaismar_site`.`type_portfolio` VALUES
+INSERT INTO `thaismar_site`.`tag` VALUES
 (null, 'DESIGN'),
 (null, 'HTML'),
 (null, 'CSS'),
@@ -161,17 +161,17 @@ COLLATE = utf8_general_ci;
 
 
 
-CREATE TABLE `thaismar_site`.`type_x_portfolio` (
-  `id_type` INT(11) NOT NULL,
+CREATE TABLE `thaismar_site`.`tag_x_portfolio` (
+  `id_tag` INT(11) NOT NULL,
   `id_portfolio` INT(11) NOT NULL,
-  INDEX `fk_type_x_portfolio_2_idx` (`id_portfolio` ASC),
-  PRIMARY KEY (`id_type`, `id_portfolio`),
+  INDEX `fk_tag_x_portfolio_2_idx` (`id_portfolio` ASC),
+  PRIMARY KEY (`id_tag`, `id_portfolio`),
   CONSTRAINT `fk_type_x_portfolio_1`
-    FOREIGN KEY (`id_type`)
-    REFERENCES `thaismar_site`.`type_portfolio` (`id`)
+    FOREIGN KEY (`id_tag`)
+    REFERENCES `thaismar_site`.`tag` (`id`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION,
-  CONSTRAINT `fk_type_x_portfolio_2`
+  CONSTRAINT `fk_tag_x_portfolio_2`
     FOREIGN KEY (`id_portfolio`)
     REFERENCES `thaismar_site`.`portfolio` (`id`)
     ON DELETE NO ACTION

@@ -1,20 +1,23 @@
 <?php
 
 /**
- * This is the model class for table "type_x_portfolio".
+ * This is the model class for table "tag".
  *
- * The followings are the available columns in table 'type_x_portfolio':
- * @property integer $id_type
- * @property integer $id_portfolio
+ * The followings are the available columns in table 'tag':
+ * @property integer $id
+ * @property string $title
+ *
+ * The followings are the available model relations:
+ * @property Portfolio[] $portfolios
  */
-class TypeXPortfolio extends CActiveRecord
+class Tag extends CActiveRecord
 {
 	/**
 	 * @return string the associated database table name
 	 */
 	public function tableName()
 	{
-		return 'type_x_portfolio';
+		return 'tag';
 	}
 
 	/**
@@ -25,11 +28,10 @@ class TypeXPortfolio extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('id_type, id_portfolio', 'required'),
-			array('id_type, id_portfolio', 'numerical', 'integerOnly'=>true),
+			array('title', 'length', 'max'=>45),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id_type, id_portfolio', 'safe', 'on'=>'search'),
+			array('id, title', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -41,6 +43,7 @@ class TypeXPortfolio extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
+			'portfolios' => array(self::MANY_MANY, 'Portfolio', 'tag_x_portfolio(id_tag, id_portfolio)'),
 		);
 	}
 
@@ -50,8 +53,8 @@ class TypeXPortfolio extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'id_type' => 'Id Type',
-			'id_portfolio' => 'Id Portfolio',
+			'id' => 'ID',
+			'title' => 'Title',
 		);
 	}
 
@@ -73,8 +76,8 @@ class TypeXPortfolio extends CActiveRecord
 
 		$criteria=new CDbCriteria;
 
-		$criteria->compare('id_type',$this->id_type);
-		$criteria->compare('id_portfolio',$this->id_portfolio);
+		$criteria->compare('id',$this->id);
+		$criteria->compare('title',$this->title,true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
@@ -85,19 +88,45 @@ class TypeXPortfolio extends CActiveRecord
 	 * Returns the static model of the specified AR class.
 	 * Please note that you should have this exact method in all your CActiveRecord descendants!
 	 * @param string $className active record class name.
-	 * @return TypeXPortfolio the static model class
+	 * @return Tag the static model class
 	 */
 	public static function model($className=__CLASS__)
 	{
 		return parent::model($className);
 	}
 	
-	public function deleteAllByPortfolio($id)
+	/**
+	 * Returns tags title by portfólio
+	 * 
+	 */
+	public function findTitleByPortfolio($idPortfolio)
 	{
-		$criteria = new CDbCriteria();
-		$criteria->condition = 'id_portfolio=:id';
-		$criteria->params = array(':id'=> $id);
+		$tagsPort = TagXPortfolio::model()->findAllByAttributes(array('id_portfolio' => $idPortfolio));
 		
-		return self::deleteAll($criteria);
+		$tags = '';
+		
+		foreach($tagsPort as $tagPort){
+			$tag = Tag::model()->findByPk($tagPort->id_tag);
+			$tags .= $tag->title . ' ';
+		}
+		
+		return $tags;
+	}
+	
+	/**
+	 * Returns tags by portfólio
+	 *
+	 */
+	public function findByPortfolio($idPortfolio)
+	{
+		$tagsPort = TagXPortfolio::model()->findAllByAttributes(array('id_portfolio' => $idPortfolio));
+	
+		$tags = array();
+	
+		foreach($tagsPort as $tag){
+			$tags[] = Tag::model()->findByPk($tag->id_tag);
+		}
+	
+		return $tags;
 	}
 }

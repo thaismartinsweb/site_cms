@@ -68,5 +68,5 @@
 
 <?php $this->renderPartial('about'); ?>
 <?php $this->renderPartial('services', array('services' => $services)); ?>
-<?php $this->renderPartial('portfolio'); ?>
+<?php $this->renderPartial('portfolio', array('portfolios' => $portfolios)); ?>
 <?php $this->renderPartial('contact', array('contactForm' => $contactForm)); ?>

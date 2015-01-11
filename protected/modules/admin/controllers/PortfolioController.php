@@ -30,13 +30,13 @@ class PortfolioController extends Controller
 				$model->image = $image->name;
 			}
 			
-			if($model->save() && isset($_POST["type_portfolio"])) {
-				$this->saveTypes($model->id, $_POST["type_portfolio"]);
+			if($model->save() && isset($_POST["tags_portfolio"])) {
+				$this->saveTypes($model->id, $_POST["tags_portfolio"]);
 				$id = $model->id;
 			}
 		}
 		
-		$typesPortfolio = TypePortfolio::model()->findAll();
+		$typesPortfolio = Tag::model()->findAll();
 		$typesSelecteds = $this->getTypesSelected($id);
 		
 		$this->render('edit', array('model' => $model,
@@ -48,7 +48,7 @@ class PortfolioController extends Controller
 	{
 		Yii::log('Deletando conteúdo do site - id '.$id, 'info');
 
-		TypeXPortfolio::model()->deleteAllByPortfolio($id);
+		TagXPortfolio::model()->deleteAllByPortfolio($id);
 		
 		$model = Portfolio::model()->findByPk($id);
 		$model->delete();
@@ -59,10 +59,12 @@ class PortfolioController extends Controller
 	private function getTypesSelected($id)
 	{
 		if($id){
-			$types = TypeXPortfolio::model()->findAllByAttributes(array('id_portfolio' => $id));
+			$types = TagXPortfolio::model()->findAllByAttributes(array('id_portfolio' => $id));
+			
+			$selecteds = '';
 			
 			foreach($types as $type) {
-				$selecteds[] = $type->id_type;
+				$selecteds[] = $type->id_tag;
 			}
 			
 			return $selecteds;
@@ -71,14 +73,14 @@ class PortfolioController extends Controller
 		return null;
 	}
 	
-	private function saveTypes($idPortfolio, $types)
+	private function saveTypes($idPortfolio, $tags)
 	{
-		TypeXPortfolio::model()->deleteAllByPortfolio($idPortfolio);
+		TagXPortfolio::model()->deleteAllByPortfolio($idPortfolio);
 		
-		foreach($types as $type) {
-			$model = new TypeXPortfolio();
+		foreach($tags as $tag) {
+			$model = new TagXPortfolio();
 			$model->id_portfolio = $idPortfolio;
-			$model->id_type = $type;
+			$model->id_tag = $tag;
 			$model->save();
 		}
 	}

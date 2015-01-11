@@ -33,7 +33,7 @@
 					<?php if($types){ ?>
 						<div class="form-group">
 							<?php echo CHtml::label('Categorias', 'Categorias'); ?>
-							<?php echo CHtml::dropDownList('type_portfolio[]', $typesSelected, $types, array('multiple' => 'multiple', 'class' => 'form-control field-sm')) ?>
+							<?php echo CHtml::dropDownList('tags_portfolio[]', $typesSelected, $types, array('multiple' => 'multiple', 'class' => 'form-control field-sm')) ?>
 						</div>
 					<?php }?>
 

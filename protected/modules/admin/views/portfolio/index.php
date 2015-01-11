@@ -40,7 +40,7 @@
 												<?php echo $item['title']?>
 											</a>
 										</td>
-										<td><?php echo '';?></td>
+										<td><?php echo Tag::model()->findTitleByPortfolio($item['id']);?></td>
 										<td>
 											<a href="<?php echo $this->createURl(Yii::app()->controller->id.'/edit/'.$item['id']);?>" title="Editar" class="btn btn-primary btn-circle">
 												<i class="fa fa-edit"></i>

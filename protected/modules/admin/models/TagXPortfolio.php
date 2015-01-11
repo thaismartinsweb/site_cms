@@ -1,23 +1,20 @@
 <?php
 
 /**
- * This is the model class for table "type_portfolio".
+ * This is the model class for table "tag_x_portfolio".
  *
- * The followings are the available columns in table 'type_portfolio':
- * @property integer $id
- * @property string $title
- *
- * The followings are the available model relations:
- * @property Portfolio[] $portfolios
+ * The followings are the available columns in table 'tag_x_portfolio':
+ * @property integer $id_tag
+ * @property integer $id_portfolio
  */
-class TypePortfolio extends CActiveRecord
+class TagXPortfolio extends CActiveRecord
 {
 	/**
 	 * @return string the associated database table name
 	 */
 	public function tableName()
 	{
-		return 'type_portfolio';
+		return 'tag_x_portfolio';
 	}
 
 	/**
@@ -28,12 +25,11 @@ class TypePortfolio extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('id', 'required'),
-			array('id', 'numerical', 'integerOnly'=>true),
-			array('title', 'length', 'max'=>45),
+			array('id_tag, id_portfolio', 'required'),
+			array('id_tag, id_portfolio', 'numerical', 'integerOnly'=>true),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, title', 'safe', 'on'=>'search'),
+			array('id_tag, id_portfolio', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -45,7 +41,6 @@ class TypePortfolio extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-			'portfolios' => array(self::MANY_MANY, 'Portfolio', 'type_x_portfolio(id_type, id_portfolio)'),
 		);
 	}
 
@@ -55,8 +50,8 @@ class TypePortfolio extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'id' => 'ID',
-			'title' => 'Title',
+			'id_tag' => 'Id Tag',
+			'id_portfolio' => 'Id Portfolio',
 		);
 	}
 
@@ -78,8 +73,8 @@ class TypePortfolio extends CActiveRecord
 
 		$criteria=new CDbCriteria;
 
-		$criteria->compare('id',$this->id);
-		$criteria->compare('title',$this->title,true);
+		$criteria->compare('id_tag',$this->id_tag);
+		$criteria->compare('id_portfolio',$this->id_portfolio);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
@@ -90,10 +85,19 @@ class TypePortfolio extends CActiveRecord
 	 * Returns the static model of the specified AR class.
 	 * Please note that you should have this exact method in all your CActiveRecord descendants!
 	 * @param string $className active record class name.
-	 * @return TypePortfolio the static model class
+	 * @return TagXPortfolio the static model class
 	 */
 	public static function model($className=__CLASS__)
 	{
 		return parent::model($className);
+	}
+	
+	public function deleteAllByPortfolio($id)
+	{
+		$criteria = new CDbCriteria();
+		$criteria->condition = 'id_portfolio=:id';
+		$criteria->params = array(':id'=> $id);
+	
+		return self::deleteAll($criteria);
 	}
 }
