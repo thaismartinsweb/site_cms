@@ -37,7 +37,7 @@
 				
 				<p><?php echo $portfolio->content ?></p>
 				
-				<p class="back"><a href="<?php echo $portfolio->site ?>" target="_blank">&#8672; Voltar</a></p>
+				<p class="back"><a href="<?php echo Yii::app()->createURl('#portfolio') ?>">&#8672; Voltar</a></p>
 				
 				<?php if(isset($portfolio->site)){ ?>
 					<p class="link"><a href="<?php echo $portfolio->site ?>" target="_blank">Ver Site &#8674;</a></p>
