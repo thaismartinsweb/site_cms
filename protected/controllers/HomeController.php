@@ -5,6 +5,7 @@ class HomeController extends Controller
 
 	public function actionIndex()
 	{
+		
 		$services = Service::model()->findAll();
 		$portfolios = Portfolio::model()->findAll();
 		$this->config = Config::model()->findByPk(1);
@@ -13,7 +14,6 @@ class HomeController extends Controller
 									 'services' => $services,
 									 'portfolios' => $portfolios));
 	}
-	
 
 	public function actionSendContact()
 	{
@@ -53,10 +53,6 @@ class HomeController extends Controller
 							'data' => array('obj' => $contact));
 		
 		Mail::send($mailParams);
-	}
-	
-	public function actionInfo(){
-		echo extension_loaded('openssl') ? 'sim' : 'não';
 	}
 	
 	private function handlesErros($errors)

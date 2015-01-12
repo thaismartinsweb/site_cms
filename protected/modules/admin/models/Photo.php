@@ -31,7 +31,7 @@ class Photo extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('title, exibition', 'required'),
+			array('title, exibition, image, id_portfolio', 'required'),
 			array('id_portfolio, exibition', 'numerical', 'integerOnly'=>true),
 			array('title, image', 'length', 'max'=>100),
 			// The following rule is used by search().
@@ -59,10 +59,10 @@ class Photo extends CActiveRecord
 	{
 		return array(
 			'id' => 'ID',
-			'id_portfolio' => 'Id Portfolio',
-			'title' => 'Title',
-			'image' => 'Image',
-			'exibition' => 'Exibition',
+			'id_portfolio' => 'Portfólio',
+			'title' => 'Título',
+			'image' => 'Imagem',
+			'exibition' => 'Ordem de Exibição',
 		);
 	}
 
@@ -107,11 +107,10 @@ class Photo extends CActiveRecord
 	}
 	
 	/**
-	 * Returns Portfólio Title
+	 * Returns portfólio owner title
 	 * 
 	 */
-	
-	public function findByPortfolio($idPortfolio){
+	public function findTitleByPortfolio($idPortfolio){
 		
 		$portfolio = Portfolio::model()->findByPk($idPortfolio);
 		
@@ -120,5 +119,14 @@ class Photo extends CActiveRecord
 		}
 		
 		return '';
+	}
+	
+	/**
+	 * Returns photos by portfólio
+	 *
+	 */
+	public function findByPortfolio($idPortfolio, $args = array()){
+	
+		return $this->findAllByAttributes(array('id_portfolio' => $idPortfolio), array('order' => 'exibition ASC'));
 	}
 }

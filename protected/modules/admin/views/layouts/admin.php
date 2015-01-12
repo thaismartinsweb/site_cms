@@ -5,20 +5,20 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, user-scalable=no" />
 	<meta name="description" content="CMS | Gerenciador de Conteúdo By Thais Martins" />
-	<link rel="author" href="http://www.tmartins.com" />
+	<link rel="author" href="http://thaismartins.rocks" />
 	
 	<!-- Core CSS - Include with every page -->
-	<link href="<?php echo Yii::app()->request->baseUrl; ?>/css/bootstrap.css" rel="stylesheet" />
-	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" />
+	<?php Yii::app()->clientScript->registerCssFile('/css/bootstrap.css'); ?>
+	<?php Yii::app()->clientScript->registerCssFile('//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css'); ?>
 	
 	<!-- Page-Level Plugin CSS - Dashboard -->
-	<link href="<?php echo Yii::app()->request->baseUrl; ?>/css/plugins/morris/morris-0.4.3.min.css" rel="stylesheet" />
-	<link href="<?php echo Yii::app()->request->baseUrl; ?>/css/plugins/timeline/timeline.css" rel="stylesheet" />
+	<?php Yii::app()->clientScript->registerCssFile('/css/plugins/morris/morris-0.4.3.min.css'); ?>
+	<?php Yii::app()->clientScript->registerCssFile('/css/plugins/timeline/timeline.css'); ?>
 	
 	<!-- Mint Admin CSS - Include with every page -->
-	<link href="<?php echo Yii::app()->request->baseUrl; ?>/css/mint-admin.css" rel="stylesheet" />
-	<link href="<?php echo Yii::app()->request->baseUrl; ?>/css/lightbox.css" rel="stylesheet" />
-	
+	<?php Yii::app()->clientScript->registerCssFile('/css/mint-admin.css'); ?>
+	<?php Yii::app()->clientScript->registerCssFile('/css/lightbox.css'); ?>
+
 	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
 </head>
 
@@ -102,15 +102,17 @@
 		</div>
 	</div>
 	
-	<script src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery-1.10.2.js"></script>
-	<script src="<?php echo Yii::app()->request->baseUrl; ?>/js/lightbox.min.js"></script>
-	<script src="<?php echo Yii::app()->request->baseUrl; ?>/js/bootstrap.min.js"></script>
-	<script src="<?php echo Yii::app()->request->baseUrl; ?>/js/plugins/metisMenu/jquery.metisMenu.js"></script>
-	<script src="<?php echo Yii::app()->request->baseUrl; ?>/js/plugins/morris/raphael-2.1.0.min.js"></script>
-	<script src="<?php echo Yii::app()->request->baseUrl; ?>/js/plugins/morris/morris.js"></script>
-	<script src="<?php echo Yii::app()->request->baseUrl; ?>/js/mint-admin.js"></script>
-	<script src="<?php echo Yii::app()->request->baseUrl; ?>/js/demo/dashboard-demo.js"></script>
+	<?php Yii::app()->clientScript->registerScriptFile('https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js', CClientScript::POS_END); ?>
 	
+	<?php Yii::app()->clientScript->registerScriptFile('/js/lightbox.min.js', CClientScript::POS_END); ?>
+	<?php Yii::app()->clientScript->registerScriptFile('/js/bootstrap.min.js', CClientScript::POS_END); ?>
+	
+	<?php Yii::app()->clientScript->registerScriptFile('/js/plugins/metisMenu/jquery.metisMenu.js', CClientScript::POS_END); ?>
+	<?php Yii::app()->clientScript->registerScriptFile('/js/plugins/morris/raphael-2.1.0.min.js', CClientScript::POS_END); ?>
+	<?php Yii::app()->clientScript->registerScriptFile('/js/plugins/morris/morris.js', CClientScript::POS_END); ?>
+	
+	<?php Yii::app()->clientScript->registerScriptFile('/js/mint-admin.js', CClientScript::POS_END); ?>
+
 	<script>
 		 tinymce.init({
 		    selector: "textarea#content",

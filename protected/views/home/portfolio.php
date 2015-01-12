@@ -14,10 +14,10 @@
 			<?php foreach($portfolios as $portfolio) {?>
 				<div class="col-md-2 col-sm-4 col-xs-12 text-center <?php echo ($i == 1) ? 'col-md-offset-1' : ''; ?>">
 					<div class="thumbnail item">
-						<a href="<?php echo $this->createUrl('portfolio/cliente/'.$portfolio->id)?>">
+						<a href="<?php echo $this->createUrl('portfolio/client/'.$portfolio->id)?>">
 							<?php
 								$image = '/public/portfolio/' . $portfolio->image;
-								echo CHtml::image($image, $portfolio->title, array('style' => 'max-width:200px;margin:10px;', 'class' => 'img-rounded img-responsive'));
+								echo CHtml::image($image, $portfolio->title, array('style' => 'max-width:90%;margin:10px;', 'class' => 'img-rounded img-responsive'));
 							?>
 						</a>
 						<p class="title"><?php echo $portfolio->title ?></p>
@@ -36,7 +36,7 @@
 							<?php if($portfolio->site != '') {?>
 								<a href="<?php echo $portfolio->site ?>" target="_blank" class="btn btn-danger btn-xs" role="button"><i class="fa fa-search"></i>Site</a>
 							<?php } ?>
-							<a href="<?php echo $this->createUrl('portfolio/cliente/'.$portfolio->id)?>" class="btn btn-danger btn-xs" role="button"><i class="fa fa-plus"></i>Detalhes</a>
+							<a href="<?php echo $this->createUrl('portfolio/client/'.$portfolio->id)?>" class="btn btn-danger btn-xs" role="button"><i class="fa fa-plus"></i>Detalhes</a>
 						</div>
 					</div>
 				</div>	

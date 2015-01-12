@@ -7,7 +7,7 @@ switch($url[0])
 {
 	case 'dev':
 		$data = array(
-				'connectionString' => 'mysql:host=127.0.0.1;dbname=cms',
+				'connectionString' => 'mysql:host=127.0.0.1;dbname=thaismar_site',
 				'emulatePrepare' => true,
 				'username' => 'root',
 				'password' => 'root',
@@ -19,7 +19,7 @@ switch($url[0])
 	
 	case 'localhost':
 		$data = array(
-				'connectionString' => 'mysql:host=127.0.0.1;dbname=cms',
+				'connectionString' => 'mysql:host=127.0.0.1;dbname=thaismar_site',
 				'emulatePrepare' => true,
 				'username' => 'root',
 				'password' => 'teste123',

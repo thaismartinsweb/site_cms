@@ -11,10 +11,13 @@
 	
 	<?php Yii::app()->clientScript->registerCssFile('//fonts.googleapis.com/css?family=Raleway:100,400,300,500,700,900'); ?>
 	
-	<?php Yii::app()->clientScript->registerCssFile(Yii::app()->request->baseUrl.'css/bootstrap.css'); ?>
-	<?php Yii::app()->clientScript->registerCssFile(Yii::app()->baseUrl.'css/social-buttons.css'); ?>
-	<?php Yii::app()->clientScript->registerCssFile(Yii::app()->baseUrl.'css/style.css'); ?>
-	<?php Yii::app()->clientScript->registerCssFile(Yii::app()->baseUrl.'css/layerslider.css'); ?>
+	<?php Yii::app()->clientScript->registerCssFile('/css/bootstrap.css'); ?>
+	<?php Yii::app()->clientScript->registerCssFile('/css/social-buttons.css'); ?>
+	
+	<?php Yii::app()->clientScript->registerCssFile('/css/layerslider.css'); ?>
+	<?php Yii::app()->clientScript->registerCssFile('/css/lightbox.css'); ?>
+	
+	<?php Yii::app()->clientScript->registerCssFile('/css/style.css'); ?>
 	
 	<!--[if lt IE 9]>
 	<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -49,11 +52,11 @@
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse navbar-right" id="menu">
 					<ul class="nav-orange" id="onepage">
-						<li class="home current"><span class="nav-hover" style="display:block"></span><a href="#slider">Home</a></li>
-						<li class="about"><span class="nav-hover"></span><a href="#about">Sobre Mim</a></li>
-						<li class="services"><span class="nav-hover"></span><a href="#services">Serviços</a></li>
-						<li class="portfolio"><span class="nav-hover"></span><a href="#portfolio">Portfólio</a></li>
-						<li class="contact"><span class="nav-hover"></span><a href="#contact">Contato</a></li>
+						<li class="home current"><span class="nav-hover" style="display:block"></span><a href="<?php echo Yii::app()->params['siteUrl']; ?>#slider">Home</a></li>
+						<li class="about"><span class="nav-hover"></span><a href="<?php echo Yii::app()->params['siteUrl']; ?>#about">Sobre Mim</a></li>
+						<li class="services"><span class="nav-hover"></span><a href="<?php echo Yii::app()->params['siteUrl']; ?>#services">Serviços</a></li>
+						<li class="portfolio"><span class="nav-hover"></span><a href="<?php echo Yii::app()->params['siteUrl']; ?>#portfolio">Portfólio</a></li>
+						<li class="contact"><span class="nav-hover"></span><a href="<?php echo Yii::app()->params['siteUrl']; ?>#contact">Contato</a></li>
 					</ul>
 				</div>
 			</div>
@@ -110,17 +113,18 @@
 	
 	<?php Yii::app()->clientScript->registerScriptFile('https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js', CClientScript::POS_END); ?>
 	
-	<?php Yii::app()->clientScript->registerScriptFile(Yii::app()->baseUrl.'js/greensock.js', CClientScript::POS_END); ?>
-	<?php Yii::app()->clientScript->registerScriptFile(Yii::app()->baseUrl.'js/layerslider.transitions.js', CClientScript::POS_END); ?>
-	<?php Yii::app()->clientScript->registerScriptFile(Yii::app()->baseUrl.'js/layerslider.kreaturamedia.jquery.js', CClientScript::POS_END); ?>
+	<?php Yii::app()->clientScript->registerScriptFile('/js/lightbox.min.js', CClientScript::POS_END); ?>
+	<?php Yii::app()->clientScript->registerScriptFile('/js/greensock.js', CClientScript::POS_END); ?>
+	<?php Yii::app()->clientScript->registerScriptFile('/js/layerslider.transitions.js', CClientScript::POS_END); ?>
+	<?php Yii::app()->clientScript->registerScriptFile('/js/layerslider.kreaturamedia.jquery.js', CClientScript::POS_END); ?>
 	
-	<?php Yii::app()->clientScript->registerScriptFile(Yii::app()->baseUrl.'js/bootstrap.min.js', CClientScript::POS_END); ?>
-	<?php Yii::app()->clientScript->registerScriptFile(Yii::app()->baseUrl.'js/jquery.onepage.js', CClientScript::POS_END); ?>
+	<?php Yii::app()->clientScript->registerScriptFile('/js/bootstrap.min.js', CClientScript::POS_END); ?>
+	<?php Yii::app()->clientScript->registerScriptFile('/js/jquery.onepage.js', CClientScript::POS_END); ?>
 	
-	<?php Yii::app()->clientScript->registerScriptFile(Yii::app()->baseUrl.'js/jquery.isMobile.js', CClientScript::POS_END); ?>
-	<?php Yii::app()->clientScript->registerScriptFile(Yii::app()->baseUrl.'js/query.site.js', CClientScript::POS_END); ?>
-	<?php Yii::app()->clientScript->registerScriptFile(Yii::app()->baseUrl.'js/jquery.menu.js', CClientScript::POS_END); ?>
-	<?php Yii::app()->clientScript->registerScriptFile(Yii::app()->baseUrl.'js/jquery.ajax.js', CClientScript::POS_END); ?>
+	<?php Yii::app()->clientScript->registerScriptFile('/js/jquery.isMobile.js', CClientScript::POS_END); ?>
+	<?php Yii::app()->clientScript->registerScriptFile('/js/jquery.site.js', CClientScript::POS_END); ?>
+	<?php Yii::app()->clientScript->registerScriptFile('/js/jquery.menu.js', CClientScript::POS_END); ?>
+	<?php Yii::app()->clientScript->registerScriptFile('/js/jquery.ajax.js', CClientScript::POS_END); ?>
 	
 </body>
 </html>

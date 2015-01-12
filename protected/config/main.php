@@ -36,9 +36,6 @@ return array(
 
 	// application components
 	'components'=>array(
-		'request' => array(
-			'baseUrl' => require_once 'url_environments.php',
-		),
 		'user'=>array(
 			// enable cookie-based authentication
 			'allowAutoLogin'=>true,

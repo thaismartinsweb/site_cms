@@ -43,7 +43,7 @@
 					</div>
 
 					<div class="form-group">
-						<?php echo $form->labelEx($model,'exibition', array('label' => 'Ordem de Exibição')); ?>
+						<?php echo $form->labelEx($model,'exibition'); ?>
 						<?php echo $form->textField($model,'exibition', array('class' => 'form-control field-sm', 'placeholder' => '1')) ?>
 					</div>
 

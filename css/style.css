@@ -604,6 +604,84 @@ fieldset[disabled] .btn-amethyst.active {
 
 
 
+/***************** PAGES ******************/
+#page {
+	padding-top:90px;
+}
+
+#page h1 {
+	font-size:26px;
+	text-transform:uppercase;
+	display:block;
+}
+
+#page h1 strong {
+	font-weight:500;
+}
+
+#page hr {
+	height:6px;
+	width:40px;
+	background-color:#e26434;
+	float:left;
+	margin-top:5px;
+	display:block;
+	margin-right:100%;
+}
+
+#page .content {
+	line-height:25px;
+	display:block;
+}
+
+#page .content p {
+	margin: 20px 0;
+	font-size: 14px;
+}
+
+#page .content h1 {
+	font-size:26px;
+	text-transform:uppercase;
+	display:block;
+	padding-bottom:5px;
+	margin-bottom:10px;
+	border-bottom: 1px solid #D8D8D8;
+}
+
+#page .content h1 strong {
+	font-weight:500;
+}
+
+#page .content .works span a {
+	padding: 0 5px;
+	font-size: 12px;
+	margin: 0 auto;
+}
+
+#page .content .works span a {
+	color: #e26434;
+	text-transform: uppercase;
+}
+
+#page .content .link a {
+	color: #e26434;
+	text-transform: uppercase;
+	font-size: 12px;
+	float:right;
+}
+
+#page .content .back a {
+	color: #e26434;
+	text-transform: uppercase;
+	font-size: 12px;
+	float:left;
+}
+
+#page .photo {
+	padding:5px;
+	margin: 0;
+}
+
 /***************** RODAPÉ ******************/
 footer {
 	width:100%;

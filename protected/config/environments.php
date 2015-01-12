@@ -8,6 +8,7 @@ switch($url[0])
 	case 'dev':
 		$data = array(
 			'adminEmail'=> 'thaismartinsweb@gmail.com',
+			'siteUrl'=> 'https://dev.bcash.com.br/',
 			'publicPath' => str_replace('protected', 'public', dirname(__DIR__)) . '/',
 		);
 	break;
@@ -15,6 +16,7 @@ switch($url[0])
 	case 'localhost':
 		$data =  array(
 			'adminEmail'=> 'thaismartinsweb@gmail.com',
+			'siteUrl'=> 'http://localhost/',
 			'publicPath' => str_replace('protected', 'public', dirname(__DIR__)) . '/',
 		);
 	break;
@@ -22,6 +24,7 @@ switch($url[0])
 	default:
 		$data =  array(
 			'adminEmail'=> 'thaismartinsweb@gmail.com',
+			'siteUrl'=> 'http://thaismartins.rocks/',
 			'publicPath' => str_replace('protected', 'public', dirname(__DIR__)) . '/',
 		);
 	break;

@@ -1,5 +1,5 @@
 CREATE SCHEMA `thaismar_site` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci ;
-USE cms;
+USE `thaismar_site`;
 
 
 CREATE TABLE `thaismar_site`.`module` (
@@ -97,9 +97,9 @@ ENGINE = InnoDB
 DEFAULT CHARACTER SET = utf8
 COLLATE = utf8_general_ci;
 
-insert into type_page values
-(null, 'Página com imagem destaque no topo', 'Modelo de página com uma imagem grande em destaque no topo do página', 'simple_page_top', 'page_top.png');
 
+insert into `thaismar_site`.`type_page` values
+(null, 'Página com imagem destaque no topo', 'Modelo de página com uma imagem grande em destaque no topo do página', 'simple_page_top', 'page_top.png');
 
 
 CREATE TABLE `thaismar_site`.`tag` (
@@ -180,7 +180,7 @@ DEFAULT CHARACTER SET = utf8
 COLLATE = utf8_general_ci;
 
 
-CREATE TABLE `cms`.`photo` (
+CREATE TABLE `thaismar_site`.`photo` (
   `id` INT NOT NULL AUTO_INCREMENT,
   `id_portfolio` INT,
   `title` VARCHAR(100) NOT NULL,
@@ -189,7 +189,7 @@ CREATE TABLE `cms`.`photo` (
   PRIMARY KEY (`id`),
   CONSTRAINT `fk_photo_1`
   	FOREIGN KEY (`id_portfolio`)
-  	REFERENCES `cms`.`portfolio` (`id`)
+  	REFERENCES `thaismar_site`.`portfolio` (`id`)
   	ON DELETE NO ACTION
   	ON UPDATE NO ACTION)
 ENGINE = InnoDB

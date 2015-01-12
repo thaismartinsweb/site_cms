@@ -2,10 +2,9 @@
 
 class PortfolioController extends Controller
 {
-
-	public function actionCliente($id)
+		
+	public function actionClient($id)
 	{
-		echo 'entrou';exit;
 		$this->config = Config::model()->findByPk(1);
 		$portfolio = Portfolio::model()->findByPk(1);
 		
