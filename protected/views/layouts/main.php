@@ -43,6 +43,8 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
 					</button>
 					<a class="navbar-brand" href="index.php">
 						<?php echo CHtml::image($this->createUrl('public/config/'.$this->config->image), $this->config->title)?>
@@ -125,6 +127,7 @@
 	<?php Yii::app()->clientScript->registerScriptFile('/js/jquery.site.js', CClientScript::POS_END); ?>
 	<?php Yii::app()->clientScript->registerScriptFile('/js/jquery.menu.js', CClientScript::POS_END); ?>
 	<?php Yii::app()->clientScript->registerScriptFile('/js/jquery.ajax.js', CClientScript::POS_END); ?>
+	<?php Yii::app()->clientScript->registerScriptFile('/js/jquery.canvas.js', CClientScript::POS_END); ?>
 	
 </body>
 </html>

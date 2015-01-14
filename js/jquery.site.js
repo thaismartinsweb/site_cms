@@ -48,7 +48,9 @@ $(function(){
 		var alturaColuna = altura - 90;
 		
 		if(altura){
+			
 			$('.general-content').css('min-height', alturaColuna);
+			$('#full-slider-wrapper').css('min-height', (alturaColuna - 400));
 			$('#layerslider').css('min-height', alturaColuna);
 		}
 	}
