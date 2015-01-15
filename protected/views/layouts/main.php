@@ -5,7 +5,9 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, user-scalable=no" />
 	<meta name="description" content="<?php echo $this->config->title ?>" />
+	
 	<link rel="author" href="<?php echo $this->config->site ?>" />
+	<link rel="shortcut icon" href="<?php echo $this->createUrl('images/favicon.ico');?>">
 
 	<title><?php echo $this->config->title ?></title>
 	
