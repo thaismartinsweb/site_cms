@@ -231,4 +231,5 @@ ENGINE = InnoDB
 DEFAULT CHARACTER SET = utf8
 COLLATE = utf8_general_ci;
 
+-- !admin@2015
 INSERT INTO `thaismar_site`.`user` VALUES (null, 'Administrador', 'admin', '2ef71c25a1c05ea4c5eab2b16e4149fb');
