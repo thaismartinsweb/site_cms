@@ -6,6 +6,8 @@ class DefaultController extends Controller
  		
  		$this->layout = 'main';
  		
+ 		exit(md5('!admin@2015cms'));
+ 		
  		$model = new User();
  		$data['model'] = $model;
  		
