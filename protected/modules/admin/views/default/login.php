@@ -11,7 +11,6 @@
 					
 					<?php $form = $this->beginWidget('CActiveForm', array(
 						    'id' => 'user-form',
-							'action' => $this->createUrl('default/doLogin'),
 						    'enableAjaxValidation' => false,
 						    'enableClientValidation' => false,
 							'htmlOptions' => array('enctype'=>'multipart/form-data', 'role' => 'form')
@@ -34,7 +33,7 @@
 					    <?php echo $form->passwordField($model,'password', array('class' => 'form-control input-lg', 'placeholder' => 'senha')) ?>
 					</div>
 					
-					<div class="row submit">
+					<div class="form-group">
 					    <?php echo CHtml::submitButton('Entrar', array('class' => 'btn btn-lg btn-primary btn-block')); ?>
 					</div>
 					

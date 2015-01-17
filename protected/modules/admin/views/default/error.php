@@ -11,7 +11,7 @@
 			<h4 style="padding:100px 0;"><?php echo CHtml::encode($message); ?></h4>
 		</div>
 		<div class="panel-body text-center">
-			<a href="<?php echo Yii::app()->params['adminUrl']?>" class="btn btn-block btn-primary">Voltar</a>
+			<a href="<?php echo Yii::app()->createUrl('admin/default')?>" class="btn btn-block btn-primary">Voltar</a>
 		</div>
 	</div>
 </div>

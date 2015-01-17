@@ -13,14 +13,16 @@ class AdminModule extends CWebModule
 			'admin.components.*',
 		));
 		
+		$this->layoutPath = Yii::getPathOfAlias('admin.views.layouts');
+		$this->layout = 'admin';
+		
 		$this->setComponents(array(	'errorHandler' => array('errorAction' => Yii::app()->createUrl('admin/default/error')),
 									'user' => array('class' => 'CWebUser',
 													'loginUrl' => Yii::app()->createUrl('admin/default/login'),
 													'returnUrl' => Yii::app()->createUrl('admin/default/index')),
 								));
 		
-		$this->layoutPath = Yii::getPathOfAlias('admin.views.layouts');
-		$this->layout = 'admin';
+		
 	}
 
 	public function beforeControllerAction($controller, $action)
@@ -36,7 +38,7 @@ class AdminModule extends CWebModule
 			
 			if(Yii::app()->getModule('admin')->user->isGuest && !in_array($route, $publicPages))
 			{
-// 				Yii::app()->request->redirect(Yii::app()->getModule('admin')->user->loginUrl);
+				Yii::app()->request->redirect(Yii::app()->getModule('admin')->user->loginUrl);
 			}
 			return true;
 		}
