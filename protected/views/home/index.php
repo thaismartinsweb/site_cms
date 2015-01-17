@@ -32,7 +32,7 @@
 				<div class="ls-slide" data-ls="slidedelay:8000;transition2d:1;timeshift:1000;">
 					<div class="ls-slide" data-ls="slidedelay:8000;transition2d:75,79;">
 										
-						<img src="images/mobile.png" class="ls-l" style="top:150px;left:-150px;white-space:nowrap;"
+						<img src="images/mobile.png" class="ls-l" style="top:120px;left:-150px;white-space:nowrap;"
 						data-ls="parallaxlevel:1;offsetxin:-50;offsetyin:-50;durationin:1000;rotateyin:30;transformoriginin:right 50% 0;
 						offsetyout:-50;durationout:750;rotateout:20;rotatexout:-30;scalexout:0;scaleyout:0;transformoriginout:left 50% 0;" alt="" />
 						
